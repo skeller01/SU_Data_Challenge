@@ -1,0 +1,3423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb405091b731b7805d9225905cd14885 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb405091b731b7805d9225905cd14885" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb405091b731b7805d9225905cd14885 = L.map(
+                "map_bb405091b731b7805d9225905cd14885",
+                {
+                    center: [43.0481, -76.1474],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b66402e88bab13da7bbea7f22900c953 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var marker_cf446303c5c7da335dd0c873ba35c15a = L.marker(
+                [43.047076, -76.14775],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_cc15be841ffe9d17ef4d35bdae292cdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cf446303c5c7da335dd0c873ba35c15a.setIcon(icon_cc15be841ffe9d17ef4d35bdae292cdc);
+        
+    
+        var popup_c64dbdbac43f63a0556a5dda9fc37835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84fc2b09eef007c07382f7afe0097742 = $(`<div id="html_84fc2b09eef007c07382f7afe0097742" style="width: 100.0%; height: 100.0%;">Point 1</div>`)[0];
+                popup_c64dbdbac43f63a0556a5dda9fc37835.setContent(html_84fc2b09eef007c07382f7afe0097742);
+            
+        
+
+        marker_cf446303c5c7da335dd0c873ba35c15a.bindPopup(popup_c64dbdbac43f63a0556a5dda9fc37835)
+        ;
+
+        
+    
+    
+            marker_cf446303c5c7da335dd0c873ba35c15a.bindTooltip(
+                `<div>
+                     Nearby restaurant: VD Lisboa Royal 
+ Nearby order: The Grazers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0f8c81ee4b1c065c38d5b3208d66f89 = L.marker(
+                [43.048292, -76.1796],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_2c09a778b9c9b137bee6f5733a453560 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c0f8c81ee4b1c065c38d5b3208d66f89.setIcon(icon_2c09a778b9c9b137bee6f5733a453560);
+        
+    
+        var popup_d58dfebcd0a060eb5a10a4f0a0f56616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c50793f80b3672de023858547a05fb2 = $(`<div id="html_8c50793f80b3672de023858547a05fb2" style="width: 100.0%; height: 100.0%;">Point 2</div>`)[0];
+                popup_d58dfebcd0a060eb5a10a4f0a0f56616.setContent(html_8c50793f80b3672de023858547a05fb2);
+            
+        
+
+        marker_c0f8c81ee4b1c065c38d5b3208d66f89.bindPopup(popup_d58dfebcd0a060eb5a10a4f0a0f56616)
+        ;
+
+        
+    
+    
+            marker_c0f8c81ee4b1c065c38d5b3208d66f89.bindTooltip(
+                `<div>
+                     Nearby restaurant: Celebrations Black Diamond Cafe 
+ Nearby order: Syracuse Firsts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d1b9314fdcf1a0a31bfdd28ee978021 = L.marker(
+                [43.046728, -76.185513],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_b8d46bdc4181c89e08ab5a23838b8044 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0d1b9314fdcf1a0a31bfdd28ee978021.setIcon(icon_b8d46bdc4181c89e08ab5a23838b8044);
+        
+    
+        var popup_0b318a670546da47428abc01988e095e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_769a3bd11490b1a631a1560b983572dd = $(`<div id="html_769a3bd11490b1a631a1560b983572dd" style="width: 100.0%; height: 100.0%;">Point 3</div>`)[0];
+                popup_0b318a670546da47428abc01988e095e.setContent(html_769a3bd11490b1a631a1560b983572dd);
+            
+        
+
+        marker_0d1b9314fdcf1a0a31bfdd28ee978021.bindPopup(popup_0b318a670546da47428abc01988e095e)
+        ;
+
+        
+    
+    
+            marker_0d1b9314fdcf1a0a31bfdd28ee978021.bindTooltip(
+                `<div>
+                     Nearby restaurant: Coleman's Authentic Irish Pub 
+ Nearby order: Cristoforo Colombo Discoverer of America
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b8dcb0228b6b4a6e8724e16a8c89bbb = L.marker(
+                [43.051799, -76.151894],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_2f34222e4d33c64d137f7506df206cd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0b8dcb0228b6b4a6e8724e16a8c89bbb.setIcon(icon_2f34222e4d33c64d137f7506df206cd1);
+        
+    
+        var popup_e7710bb0f14826b2ab47b0953c3d03cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff053ef3cc3dc4ebf3203add2027a6ac = $(`<div id="html_ff053ef3cc3dc4ebf3203add2027a6ac" style="width: 100.0%; height: 100.0%;">Point 4</div>`)[0];
+                popup_e7710bb0f14826b2ab47b0953c3d03cb.setContent(html_ff053ef3cc3dc4ebf3203add2027a6ac);
+            
+        
+
+        marker_0b8dcb0228b6b4a6e8724e16a8c89bbb.bindPopup(popup_e7710bb0f14826b2ab47b0953c3d03cb)
+        ;
+
+        
+    
+    
+            marker_0b8dcb0228b6b4a6e8724e16a8c89bbb.bindTooltip(
+                `<div>
+                     Nearby restaurant: PMA Foods 
+ Nearby order: East Onondaga Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29012a35d2a572aa3204c5049528e4b6 = L.marker(
+                [43.045603, -76.150646],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_0f8d5574a6a7db31c851c311196c217a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_29012a35d2a572aa3204c5049528e4b6.setIcon(icon_0f8d5574a6a7db31c851c311196c217a);
+        
+    
+        var popup_83a228b2684d838ed262705650acf574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62afa7b60b579607d90406a623afa30c = $(`<div id="html_62afa7b60b579607d90406a623afa30c" style="width: 100.0%; height: 100.0%;">Point 5</div>`)[0];
+                popup_83a228b2684d838ed262705650acf574.setContent(html_62afa7b60b579607d90406a623afa30c);
+            
+        
+
+        marker_29012a35d2a572aa3204c5049528e4b6.bindPopup(popup_83a228b2684d838ed262705650acf574)
+        ;
+
+        
+    
+    
+            marker_29012a35d2a572aa3204c5049528e4b6.bindTooltip(
+                `<div>
+                     Nearby restaurant: Tall Paul's Hot Dogs 
+ Nearby order: Onondaga County Korea–Vietnam Veterans Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad164401cb6aeba233518829b1d1651c = L.marker(
+                [43.070187, -76.162312],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_1d05a55da5d7dc306787672127e14b1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ad164401cb6aeba233518829b1d1651c.setIcon(icon_1d05a55da5d7dc306787672127e14b1f);
+        
+    
+        var popup_28c3578c467729bcbcf97a34a617ccea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67a6ae36b91abfd8426ae3ea2474412a = $(`<div id="html_67a6ae36b91abfd8426ae3ea2474412a" style="width: 100.0%; height: 100.0%;">Point 6</div>`)[0];
+                popup_28c3578c467729bcbcf97a34a617ccea.setContent(html_67a6ae36b91abfd8426ae3ea2474412a);
+            
+        
+
+        marker_ad164401cb6aeba233518829b1d1651c.bindPopup(popup_28c3578c467729bcbcf97a34a617ccea)
+        ;
+
+        
+    
+    
+            marker_ad164401cb6aeba233518829b1d1651c.bindTooltip(
+                `<div>
+                     Nearby restaurant: Talula's Garden 
+ Nearby order: Italian-American War Veterans
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eef82441cc3ff7f64049f767dd119a91 = L.marker(
+                [43.046844, -76.149104],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_0444eb50ea4e885ddcae21975ac627d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_eef82441cc3ff7f64049f767dd119a91.setIcon(icon_0444eb50ea4e885ddcae21975ac627d0);
+        
+    
+        var popup_7a8949fbc65e9b671cd99be224ac1762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceb17577138ac4ced1d801fe3a216187 = $(`<div id="html_ceb17577138ac4ced1d801fe3a216187" style="width: 100.0%; height: 100.0%;">Point 7</div>`)[0];
+                popup_7a8949fbc65e9b671cd99be224ac1762.setContent(html_ceb17577138ac4ced1d801fe3a216187);
+            
+        
+
+        marker_eef82441cc3ff7f64049f767dd119a91.bindPopup(popup_7a8949fbc65e9b671cd99be224ac1762)
+        ;
+
+        
+    
+    
+            marker_eef82441cc3ff7f64049f767dd119a91.bindTooltip(
+                `<div>
+                     Nearby restaurant: Tang Flavor Chinese Food Square 
+ Nearby order: DecoRated Wall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b9f8796de05ddec9ae7287625c6021f = L.marker(
+                [43.056447, -76.151855],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_578ce42b16f7e9dc4348f0416b65d8fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6b9f8796de05ddec9ae7287625c6021f.setIcon(icon_578ce42b16f7e9dc4348f0416b65d8fb);
+        
+    
+        var popup_870dd0d91bccc4cf4254734fad4593d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adfef74c2cf15c4527b369caa5e6f100 = $(`<div id="html_adfef74c2cf15c4527b369caa5e6f100" style="width: 100.0%; height: 100.0%;">Point 8</div>`)[0];
+                popup_870dd0d91bccc4cf4254734fad4593d2.setContent(html_adfef74c2cf15c4527b369caa5e6f100);
+            
+        
+
+        marker_6b9f8796de05ddec9ae7287625c6021f.bindPopup(popup_870dd0d91bccc4cf4254734fad4593d2)
+        ;
+
+        
+    
+    
+            marker_6b9f8796de05ddec9ae7287625c6021f.bindTooltip(
+                `<div>
+                     Nearby restaurant: SINBUN 
+ Nearby order: Palladium
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f96be870f49599a5599fe8dd7017581 = L.marker(
+                [43.042526, -76.151139],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_733e3d359c7425242c0e88862f4a2ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6f96be870f49599a5599fe8dd7017581.setIcon(icon_733e3d359c7425242c0e88862f4a2ca5);
+        
+    
+        var popup_cf73443c798246db6fa1276106a07b9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d3d7f5d9f7378bc64f609ba8628c197 = $(`<div id="html_5d3d7f5d9f7378bc64f609ba8628c197" style="width: 100.0%; height: 100.0%;">Point 9</div>`)[0];
+                popup_cf73443c798246db6fa1276106a07b9a.setContent(html_5d3d7f5d9f7378bc64f609ba8628c197);
+            
+        
+
+        marker_6f96be870f49599a5599fe8dd7017581.bindPopup(popup_cf73443c798246db6fa1276106a07b9a)
+        ;
+
+        
+    
+    
+            marker_6f96be870f49599a5599fe8dd7017581.bindTooltip(
+                `<div>
+                     Nearby restaurant: Brother's Pizza 
+ Nearby order: Untitled Sculpture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40007c65897a6c9e8c196a5e3e9d5e2c = L.marker(
+                [43.041961, -76.151029],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_9be8cd675785637b9b59f3d4c924d4a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_40007c65897a6c9e8c196a5e3e9d5e2c.setIcon(icon_9be8cd675785637b9b59f3d4c924d4a5);
+        
+    
+        var popup_e0b7292794b797cb7cf3e4f8ed72dbb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f33e5c75444ca26f1d993681817868 = $(`<div id="html_69f33e5c75444ca26f1d993681817868" style="width: 100.0%; height: 100.0%;">Point 10</div>`)[0];
+                popup_e0b7292794b797cb7cf3e4f8ed72dbb3.setContent(html_69f33e5c75444ca26f1d993681817868);
+            
+        
+
+        marker_40007c65897a6c9e8c196a5e3e9d5e2c.bindPopup(popup_e0b7292794b797cb7cf3e4f8ed72dbb3)
+        ;
+
+        
+    
+    
+            marker_40007c65897a6c9e8c196a5e3e9d5e2c.bindTooltip(
+                `<div>
+                     Nearby restaurant: Parkplace 24 Tavern 
+ Nearby order: Immersive Cloud
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0310706f8402ac907d58bfea9da1bc2a = L.marker(
+                [43.050729, -76.153327],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_8797c1ba1d548ac2314bdf748ac461f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0310706f8402ac907d58bfea9da1bc2a.setIcon(icon_8797c1ba1d548ac2314bdf748ac461f0);
+        
+    
+        var popup_112e732ec0d040ba447f02cb1ec44621 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9516b67022838af7a1b3b9656ebb148 = $(`<div id="html_d9516b67022838af7a1b3b9656ebb148" style="width: 100.0%; height: 100.0%;">Point 11</div>`)[0];
+                popup_112e732ec0d040ba447f02cb1ec44621.setContent(html_d9516b67022838af7a1b3b9656ebb148);
+            
+        
+
+        marker_0310706f8402ac907d58bfea9da1bc2a.bindPopup(popup_112e732ec0d040ba447f02cb1ec44621)
+        ;
+
+        
+    
+    
+            marker_0310706f8402ac907d58bfea9da1bc2a.bindTooltip(
+                `<div>
+                     Nearby restaurant: Prime Steak House 
+ Nearby order: Philip Eckel Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ea859c5a1558d26b3043b4a0d8840ee = L.marker(
+                [43.034322, -76.147506],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_fd3be3bbbe68bfaadf48104166c5558c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1ea859c5a1558d26b3043b4a0d8840ee.setIcon(icon_fd3be3bbbe68bfaadf48104166c5558c);
+        
+    
+        var popup_bec55c51f6db545f5cb851fe88b4be98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ff4637ddd35cb0e4cbe6a4c0ca07c3a = $(`<div id="html_3ff4637ddd35cb0e4cbe6a4c0ca07c3a" style="width: 100.0%; height: 100.0%;">Point 12</div>`)[0];
+                popup_bec55c51f6db545f5cb851fe88b4be98.setContent(html_3ff4637ddd35cb0e4cbe6a4c0ca07c3a);
+            
+        
+
+        marker_1ea859c5a1558d26b3043b4a0d8840ee.bindPopup(popup_bec55c51f6db545f5cb851fe88b4be98)
+        ;
+
+        
+    
+    
+            marker_1ea859c5a1558d26b3043b4a0d8840ee.bindTooltip(
+                `<div>
+                     Nearby restaurant: Rouf’s Pizza Wings and Snacks 
+ Nearby order: Fireman's Bell Tower
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12bf54b4b981bc84a01b781c135590a6 = L.marker(
+                [43.048339, -76.146501],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_63afb72b5f7a768e1577fe1d31c92009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_12bf54b4b981bc84a01b781c135590a6.setIcon(icon_63afb72b5f7a768e1577fe1d31c92009);
+        
+    
+        var popup_1bbcc30e5ca4b803354baba9b009e756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3011258ca1f311bb538ad35a7fea0e7c = $(`<div id="html_3011258ca1f311bb538ad35a7fea0e7c" style="width: 100.0%; height: 100.0%;">Point 13</div>`)[0];
+                popup_1bbcc30e5ca4b803354baba9b009e756.setContent(html_3011258ca1f311bb538ad35a7fea0e7c);
+            
+        
+
+        marker_12bf54b4b981bc84a01b781c135590a6.bindPopup(popup_1bbcc30e5ca4b803354baba9b009e756)
+        ;
+
+        
+    
+    
+            marker_12bf54b4b981bc84a01b781c135590a6.bindTooltip(
+                `<div>
+                     Nearby restaurant: Jamaika Flava 
+ Nearby order: Hamilton White Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a35d63af0ab894f3d58f92fdbc7c8a3f = L.marker(
+                [43.048341, -76.146779],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_9f9b346d86fdbd694d732d4ca4c2d4dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a35d63af0ab894f3d58f92fdbc7c8a3f.setIcon(icon_9f9b346d86fdbd694d732d4ca4c2d4dc);
+        
+    
+        var popup_217605afbcc92ccf12f5d68a64666e59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c06a764bfba9a64fdef9553fb4c89e80 = $(`<div id="html_c06a764bfba9a64fdef9553fb4c89e80" style="width: 100.0%; height: 100.0%;">Point 14</div>`)[0];
+                popup_217605afbcc92ccf12f5d68a64666e59.setContent(html_c06a764bfba9a64fdef9553fb4c89e80);
+            
+        
+
+        marker_a35d63af0ab894f3d58f92fdbc7c8a3f.bindPopup(popup_217605afbcc92ccf12f5d68a64666e59)
+        ;
+
+        
+    
+    
+            marker_a35d63af0ab894f3d58f92fdbc7c8a3f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Jamaika Flava 
+ Nearby order: Collins Block Memorial - "Firemen's Memorial"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b70c0e9c808c6d89a85875b0c73f1b6f = L.marker(
+                [43.04835, -76.14713],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_d3155c74167434d035175b787330b8e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b70c0e9c808c6d89a85875b0c73f1b6f.setIcon(icon_d3155c74167434d035175b787330b8e5);
+        
+    
+        var popup_6fe1a31d634dfb6ff14837a63f71fe88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b129169a5754e10b0cfff062958286d = $(`<div id="html_5b129169a5754e10b0cfff062958286d" style="width: 100.0%; height: 100.0%;">Point 15</div>`)[0];
+                popup_6fe1a31d634dfb6ff14837a63f71fe88.setContent(html_5b129169a5754e10b0cfff062958286d);
+            
+        
+
+        marker_b70c0e9c808c6d89a85875b0c73f1b6f.bindPopup(popup_6fe1a31d634dfb6ff14837a63f71fe88)
+        ;
+
+        
+    
+    
+            marker_b70c0e9c808c6d89a85875b0c73f1b6f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Jamaika Flava 
+ Nearby order: Mighty Salt City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48baa354078c16c686004990972e447e = L.marker(
+                [43.048332, -76.14713],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_67c42084e1f59d34bc3676c20d01d5fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_48baa354078c16c686004990972e447e.setIcon(icon_67c42084e1f59d34bc3676c20d01d5fb);
+        
+    
+        var popup_b0f829642e1e2a67c89408d14263e818 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6edd4d469ce74388d4dfc7f8efd0d2ee = $(`<div id="html_6edd4d469ce74388d4dfc7f8efd0d2ee" style="width: 100.0%; height: 100.0%;">Point 16</div>`)[0];
+                popup_b0f829642e1e2a67c89408d14263e818.setContent(html_6edd4d469ce74388d4dfc7f8efd0d2ee);
+            
+        
+
+        marker_48baa354078c16c686004990972e447e.bindPopup(popup_b0f829642e1e2a67c89408d14263e818)
+        ;
+
+        
+    
+    
+            marker_48baa354078c16c686004990972e447e.bindTooltip(
+                `<div>
+                     Nearby restaurant: Jamaika Flava 
+ Nearby order: This Must Be The Place
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7529d51dcf7da1f94ed852dd617bc713 = L.marker(
+                [43.047183, -76.141848],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_274f243e949fdce17d14335d7e37933f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7529d51dcf7da1f94ed852dd617bc713.setIcon(icon_274f243e949fdce17d14335d7e37933f);
+        
+    
+        var popup_a4b51e551fe7948aa6b7a3f2c1a65fde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568ca87de6f75ec984449b7838fc2b4a = $(`<div id="html_568ca87de6f75ec984449b7838fc2b4a" style="width: 100.0%; height: 100.0%;">Point 17</div>`)[0];
+                popup_a4b51e551fe7948aa6b7a3f2c1a65fde.setContent(html_568ca87de6f75ec984449b7838fc2b4a);
+            
+        
+
+        marker_7529d51dcf7da1f94ed852dd617bc713.bindPopup(popup_a4b51e551fe7948aa6b7a3f2c1a65fde)
+        ;
+
+        
+    
+    
+            marker_7529d51dcf7da1f94ed852dd617bc713.bindTooltip(
+                `<div>
+                     Nearby restaurant: YB Eatery 
+ Nearby order: Burrow Boy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_270c28e9403c11b7d3710d09bad8cca0 = L.marker(
+                [43.057096, -76.15683],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_2ba8c02936c1df88094bc3c9ac15bedb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_270c28e9403c11b7d3710d09bad8cca0.setIcon(icon_2ba8c02936c1df88094bc3c9ac15bedb);
+        
+    
+        var popup_02c05dba3fa0d8907ce03f7edb9c1ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6178b68d845d43225bb3ffde7620163c = $(`<div id="html_6178b68d845d43225bb3ffde7620163c" style="width: 100.0%; height: 100.0%;">Point 18</div>`)[0];
+                popup_02c05dba3fa0d8907ce03f7edb9c1ee2.setContent(html_6178b68d845d43225bb3ffde7620163c);
+            
+        
+
+        marker_270c28e9403c11b7d3710d09bad8cca0.bindPopup(popup_02c05dba3fa0d8907ce03f7edb9c1ee2)
+        ;
+
+        
+    
+    
+            marker_270c28e9403c11b7d3710d09bad8cca0.bindTooltip(
+                `<div>
+                     Nearby restaurant: Franklin Square Beer Garden 
+ Nearby order: Tectonic Sculpture 01 (The Hand)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ef6f215557db828ef799961fdfb5a28 = L.marker(
+                [43.051094, -76.152937],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_4c011f6c6bde16086df2aaf95a305c90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3ef6f215557db828ef799961fdfb5a28.setIcon(icon_4c011f6c6bde16086df2aaf95a305c90);
+        
+    
+        var popup_1c588ab4e1e4359246cd58b6139dd7ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49bec6588d6259bf9243b115b55cda51 = $(`<div id="html_49bec6588d6259bf9243b115b55cda51" style="width: 100.0%; height: 100.0%;">Point 19</div>`)[0];
+                popup_1c588ab4e1e4359246cd58b6139dd7ee.setContent(html_49bec6588d6259bf9243b115b55cda51);
+            
+        
+
+        marker_3ef6f215557db828ef799961fdfb5a28.bindPopup(popup_1c588ab4e1e4359246cd58b6139dd7ee)
+        ;
+
+        
+    
+    
+            marker_3ef6f215557db828ef799961fdfb5a28.bindTooltip(
+                `<div>
+                     Nearby restaurant: Prime Steak House 
+ Nearby order: O1101
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75cc6de63fd4a6c2680f18fba442953f = L.marker(
+                [43.069573, -76.141616],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_6b61414bbd2c92a97ccfb10bb2209226 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75cc6de63fd4a6c2680f18fba442953f.setIcon(icon_6b61414bbd2c92a97ccfb10bb2209226);
+        
+    
+        var popup_86c2f3f11504a6ba6561803b362cf694 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a78ae61b40f54fc2faa2c0c9975baf8 = $(`<div id="html_4a78ae61b40f54fc2faa2c0c9975baf8" style="width: 100.0%; height: 100.0%;">Point 20</div>`)[0];
+                popup_86c2f3f11504a6ba6561803b362cf694.setContent(html_4a78ae61b40f54fc2faa2c0c9975baf8);
+            
+        
+
+        marker_75cc6de63fd4a6c2680f18fba442953f.bindPopup(popup_86c2f3f11504a6ba6561803b362cf694)
+        ;
+
+        
+    
+    
+            marker_75cc6de63fd4a6c2680f18fba442953f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Wings Over Syracuse 
+ Nearby order: S.ALT City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_575889f54685613a1da1024d42c5f95b = L.marker(
+                [43.045599, -76.150671],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_30091931555b5f1201626bcd093d91c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_575889f54685613a1da1024d42c5f95b.setIcon(icon_30091931555b5f1201626bcd093d91c5);
+        
+    
+        var popup_619bea59af571fd7b1c321d347d07230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aec17bb7d0c1205a33b5515174d1ed3 = $(`<div id="html_0aec17bb7d0c1205a33b5515174d1ed3" style="width: 100.0%; height: 100.0%;">Point 21</div>`)[0];
+                popup_619bea59af571fd7b1c321d347d07230.setContent(html_0aec17bb7d0c1205a33b5515174d1ed3);
+            
+        
+
+        marker_575889f54685613a1da1024d42c5f95b.bindPopup(popup_619bea59af571fd7b1c321d347d07230)
+        ;
+
+        
+    
+    
+            marker_575889f54685613a1da1024d42c5f95b.bindTooltip(
+                `<div>
+                     Nearby restaurant: Fast foods 
+ Nearby order: Whales Tale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd43d446bc4e2718529dbf265ca4bcad = L.marker(
+                [43.0412303, -76.1624929],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_b29a40177d0ab8721bad17b924e6d6c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bd43d446bc4e2718529dbf265ca4bcad.setIcon(icon_b29a40177d0ab8721bad17b924e6d6c1);
+        
+    
+        var popup_f2f1eedbd3a9c096072b63796450cff5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eb5319c26557d7d0d40d9233e1b91ce = $(`<div id="html_3eb5319c26557d7d0d40d9233e1b91ce" style="width: 100.0%; height: 100.0%;">Point 22</div>`)[0];
+                popup_f2f1eedbd3a9c096072b63796450cff5.setContent(html_3eb5319c26557d7d0d40d9233e1b91ce);
+            
+        
+
+        marker_bd43d446bc4e2718529dbf265ca4bcad.bindPopup(popup_f2f1eedbd3a9c096072b63796450cff5)
+        ;
+
+        
+    
+    
+            marker_bd43d446bc4e2718529dbf265ca4bcad.bindTooltip(
+                `<div>
+                     Nearby restaurant: Cooperativa Las Comadres 
+ Nearby order: Jerry Rescue Monument
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_661dc9b817493c2ec29236db0e90597f = L.marker(
+                [43.042733, -76.12441],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_ed9b4824b26e24671d94f654d9e35f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_661dc9b817493c2ec29236db0e90597f.setIcon(icon_ed9b4824b26e24671d94f654d9e35f7d);
+        
+    
+        var popup_4a6b4dcebc88a2da18e4c6a12b1fdded = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf91b2d7ef5fd36930a3f8cce0802ea4 = $(`<div id="html_cf91b2d7ef5fd36930a3f8cce0802ea4" style="width: 100.0%; height: 100.0%;">Point 23</div>`)[0];
+                popup_4a6b4dcebc88a2da18e4c6a12b1fdded.setContent(html_cf91b2d7ef5fd36930a3f8cce0802ea4);
+            
+        
+
+        marker_661dc9b817493c2ec29236db0e90597f.bindPopup(popup_4a6b4dcebc88a2da18e4c6a12b1fdded)
+        ;
+
+        
+    
+    
+            marker_661dc9b817493c2ec29236db0e90597f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Saint Urban Wine Bar 
+ Nearby order: Soldiers and Sailors Monument
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ca91566d3eef20b70bc61608abb755d = L.marker(
+                [43.04967, -76.150101],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_842b302f3a1c15d9e44350757fe631bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4ca91566d3eef20b70bc61608abb755d.setIcon(icon_842b302f3a1c15d9e44350757fe631bf);
+        
+    
+        var popup_f1e18143603e4270f0e29f74d00b9ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_431245c2586f3d90a2513b3435bda62e = $(`<div id="html_431245c2586f3d90a2513b3435bda62e" style="width: 100.0%; height: 100.0%;">Point 24</div>`)[0];
+                popup_f1e18143603e4270f0e29f74d00b9ff1.setContent(html_431245c2586f3d90a2513b3435bda62e);
+            
+        
+
+        marker_4ca91566d3eef20b70bc61608abb755d.bindPopup(popup_f1e18143603e4270f0e29f74d00b9ff1)
+        ;
+
+        
+    
+    
+            marker_4ca91566d3eef20b70bc61608abb755d.bindTooltip(
+                `<div>
+                     Nearby restaurant: DKR Fast Mart LLC 
+ Nearby order: Clinton Serenade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44fb678ede9605f31d469f695cd45ac3 = L.marker(
+                [43.048519, -76.150608],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_ae964eb1e334e3dd69f10f3bd7af1ffa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_44fb678ede9605f31d469f695cd45ac3.setIcon(icon_ae964eb1e334e3dd69f10f3bd7af1ffa);
+        
+    
+        var popup_9e3d3422bbae7b794fc5c8a4a09e5330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006db52ea8ed5849127b25117d4060c1 = $(`<div id="html_006db52ea8ed5849127b25117d4060c1" style="width: 100.0%; height: 100.0%;">Point 25</div>`)[0];
+                popup_9e3d3422bbae7b794fc5c8a4a09e5330.setContent(html_006db52ea8ed5849127b25117d4060c1);
+            
+        
+
+        marker_44fb678ede9605f31d469f695cd45ac3.bindPopup(popup_9e3d3422bbae7b794fc5c8a4a09e5330)
+        ;
+
+        
+    
+    
+            marker_44fb678ede9605f31d469f695cd45ac3.bindTooltip(
+                `<div>
+                     Nearby restaurant: Soup R Salads 
+ Nearby order: One, Two, Three
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfb56273873049b4d7d418f1edb23bb7 = L.marker(
+                [43.041182, -76.162281],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_01d112fcca12057f174dc86678fc9ff5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bfb56273873049b4d7d418f1edb23bb7.setIcon(icon_01d112fcca12057f174dc86678fc9ff5);
+        
+    
+        var popup_88f6a665964c4e7f965759281c6fce78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a24bef0e2f144984b9b7ba3071cbc224 = $(`<div id="html_a24bef0e2f144984b9b7ba3071cbc224" style="width: 100.0%; height: 100.0%;">Point 26</div>`)[0];
+                popup_88f6a665964c4e7f965759281c6fce78.setContent(html_a24bef0e2f144984b9b7ba3071cbc224);
+            
+        
+
+        marker_bfb56273873049b4d7d418f1edb23bb7.bindPopup(popup_88f6a665964c4e7f965759281c6fce78)
+        ;
+
+        
+    
+    
+            marker_bfb56273873049b4d7d418f1edb23bb7.bindTooltip(
+                `<div>
+                     Nearby restaurant: Massay international grill 
+ Nearby order: Spirit of Light
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66c20c621a2aa2e7c9a8730f81e0e20a = L.marker(
+                [43.052589, -76.187373],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_1c7ddd54613c93247376ebb398e59260 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_66c20c621a2aa2e7c9a8730f81e0e20a.setIcon(icon_1c7ddd54613c93247376ebb398e59260);
+        
+    
+        var popup_72ff7944a479e9d8e1b03471eae52fbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4006d703ae2620cc5ac99265b7b27ec = $(`<div id="html_b4006d703ae2620cc5ac99265b7b27ec" style="width: 100.0%; height: 100.0%;">Point 27</div>`)[0];
+                popup_72ff7944a479e9d8e1b03471eae52fbd.setContent(html_b4006d703ae2620cc5ac99265b7b27ec);
+            
+        
+
+        marker_66c20c621a2aa2e7c9a8730f81e0e20a.bindPopup(popup_72ff7944a479e9d8e1b03471eae52fbd)
+        ;
+
+        
+    
+    
+            marker_66c20c621a2aa2e7c9a8730f81e0e20a.bindTooltip(
+                `<div>
+                     Nearby restaurant: Brooklyn Pickle West 
+ Nearby order: Erie Canal Themed Poster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2825ee2407352fb36f2cdd16b4ad710f = L.marker(
+                [43.040887, -76.11844],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_d770a67ac085166770eec3c90d8e8f24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2825ee2407352fb36f2cdd16b4ad710f.setIcon(icon_d770a67ac085166770eec3c90d8e8f24);
+        
+    
+        var popup_9f1f380d5b6d88b969ef27599c82d00b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1714e52f0cdaef89406116e2450411b = $(`<div id="html_d1714e52f0cdaef89406116e2450411b" style="width: 100.0%; height: 100.0%;">Point 28</div>`)[0];
+                popup_9f1f380d5b6d88b969ef27599c82d00b.setContent(html_d1714e52f0cdaef89406116e2450411b);
+            
+        
+
+        marker_2825ee2407352fb36f2cdd16b4ad710f.bindPopup(popup_9f1f380d5b6d88b969ef27599c82d00b)
+        ;
+
+        
+    
+    
+            marker_2825ee2407352fb36f2cdd16b4ad710f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Recess Coffee 
+ Nearby order: Let Us Continue
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2828a4cecc018e8832cdb076a40ad1c4 = L.marker(
+                [43.046469, -76.16935],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_9e095ce49ff02d4f77b2ae01a7e3adb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2828a4cecc018e8832cdb076a40ad1c4.setIcon(icon_9e095ce49ff02d4f77b2ae01a7e3adb3);
+        
+    
+        var popup_833cb31e480daeca14cf1be2c63f0adf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37656adbb05d1142bd2660bed269fbb7 = $(`<div id="html_37656adbb05d1142bd2660bed269fbb7" style="width: 100.0%; height: 100.0%;">Point 29</div>`)[0];
+                popup_833cb31e480daeca14cf1be2c63f0adf.setContent(html_37656adbb05d1142bd2660bed269fbb7);
+            
+        
+
+        marker_2828a4cecc018e8832cdb076a40ad1c4.bindPopup(popup_833cb31e480daeca14cf1be2c63f0adf)
+        ;
+
+        
+    
+    
+            marker_2828a4cecc018e8832cdb076a40ad1c4.bindTooltip(
+                `<div>
+                     Nearby restaurant: Decir Algo 
+ Nearby order: Current
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e94430f67b21e6bec04894d00aafaaa7 = L.marker(
+                [43.0011259, -76.1524237],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_5c22457a460551f8c848690f7a07b486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e94430f67b21e6bec04894d00aafaaa7.setIcon(icon_5c22457a460551f8c848690f7a07b486);
+        
+    
+        var popup_157a393fb4fc506eb7df750f7509fae9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7826e6a7f3a6c7ec7398d588c2deda4a = $(`<div id="html_7826e6a7f3a6c7ec7398d588c2deda4a" style="width: 100.0%; height: 100.0%;">Point 30</div>`)[0];
+                popup_157a393fb4fc506eb7df750f7509fae9.setContent(html_7826e6a7f3a6c7ec7398d588c2deda4a);
+            
+        
+
+        marker_e94430f67b21e6bec04894d00aafaaa7.bindPopup(popup_157a393fb4fc506eb7df750f7509fae9)
+        ;
+
+        
+    
+    
+            marker_e94430f67b21e6bec04894d00aafaaa7.bindTooltip(
+                `<div>
+                     Nearby restaurant: Subway 
+ Nearby order: Welcome Downtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_887916d5562e8b372b10d9bf65c1cdc2 = L.marker(
+                [43.057583, -76.117522],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_befb7a0391e1a7f38cdcd9225ee0d424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_887916d5562e8b372b10d9bf65c1cdc2.setIcon(icon_befb7a0391e1a7f38cdcd9225ee0d424);
+        
+    
+        var popup_51496bddc9f88299fd7888fbdf4c68a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6c1d7d2ff735c6ea05576193623c906 = $(`<div id="html_c6c1d7d2ff735c6ea05576193623c906" style="width: 100.0%; height: 100.0%;">Point 31</div>`)[0];
+                popup_51496bddc9f88299fd7888fbdf4c68a7.setContent(html_c6c1d7d2ff735c6ea05576193623c906);
+            
+        
+
+        marker_887916d5562e8b372b10d9bf65c1cdc2.bindPopup(popup_51496bddc9f88299fd7888fbdf4c68a7)
+        ;
+
+        
+    
+    
+            marker_887916d5562e8b372b10d9bf65c1cdc2.bindTooltip(
+                `<div>
+                     Nearby restaurant: Shifty's Bar & Grill 
+ Nearby order: You've Made It
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c22de00eb2fafcca37ce13a3fedd7842 = L.marker(
+                [43.00114, -76.147903],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_e35f0bb03e1ad8759e3e605ec479f91a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c22de00eb2fafcca37ce13a3fedd7842.setIcon(icon_e35f0bb03e1ad8759e3e605ec479f91a);
+        
+    
+        var popup_c708b1dd395a484c4809b8dd8ab8865a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d29a125f97e6cbe4cb0ea9b8f900730 = $(`<div id="html_6d29a125f97e6cbe4cb0ea9b8f900730" style="width: 100.0%; height: 100.0%;">Point 32</div>`)[0];
+                popup_c708b1dd395a484c4809b8dd8ab8865a.setContent(html_6d29a125f97e6cbe4cb0ea9b8f900730);
+            
+        
+
+        marker_c22de00eb2fafcca37ce13a3fedd7842.bindPopup(popup_c708b1dd395a484c4809b8dd8ab8865a)
+        ;
+
+        
+    
+    
+            marker_c22de00eb2fafcca37ce13a3fedd7842.bindTooltip(
+                `<div>
+                     Nearby restaurant: Ze Mart 
+ Nearby order: 24 Second Clock
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_091bc3cfdb72e15fea8c86a37c36d9d7 = L.marker(
+                [43.047149, -76.141262],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_151cd09677d4edafd155d2addafa5421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_091bc3cfdb72e15fea8c86a37c36d9d7.setIcon(icon_151cd09677d4edafd155d2addafa5421);
+        
+    
+        var popup_f6c0c98063e5729db6ed6690108507f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f99f4d1da658c377d93172d6b79aec = $(`<div id="html_55f99f4d1da658c377d93172d6b79aec" style="width: 100.0%; height: 100.0%;">Point 33</div>`)[0];
+                popup_f6c0c98063e5729db6ed6690108507f9.setContent(html_55f99f4d1da658c377d93172d6b79aec);
+            
+        
+
+        marker_091bc3cfdb72e15fea8c86a37c36d9d7.bindPopup(popup_f6c0c98063e5729db6ed6690108507f9)
+        ;
+
+        
+    
+    
+            marker_091bc3cfdb72e15fea8c86a37c36d9d7.bindTooltip(
+                `<div>
+                     Nearby restaurant: YB Eatery 
+ Nearby order: Always Advance
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d77658ad3e0c93c33152052a0b8c2449 = L.marker(
+                [43.045706, -76.134479],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_d2d2e976cccddf118871bdd31d6cff33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d77658ad3e0c93c33152052a0b8c2449.setIcon(icon_d2d2e976cccddf118871bdd31d6cff33);
+        
+    
+        var popup_cac30412b94a42e1d8436b95a89edf68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75a1c19eeaa591598c0179207361c237 = $(`<div id="html_75a1c19eeaa591598c0179207361c237" style="width: 100.0%; height: 100.0%;">Point 34</div>`)[0];
+                popup_cac30412b94a42e1d8436b95a89edf68.setContent(html_75a1c19eeaa591598c0179207361c237);
+            
+        
+
+        marker_d77658ad3e0c93c33152052a0b8c2449.bindPopup(popup_cac30412b94a42e1d8436b95a89edf68)
+        ;
+
+        
+    
+    
+            marker_d77658ad3e0c93c33152052a0b8c2449.bindTooltip(
+                `<div>
+                     Nearby restaurant: Cook House Dining Room 
+ Nearby order: And Still We Rise
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2be4143f5f5a693905adeee7a3be6b3 = L.marker(
+                [43.048911, -76.15704],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_3772be708e2551a3fe11c596bdca2e74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b2be4143f5f5a693905adeee7a3be6b3.setIcon(icon_3772be708e2551a3fe11c596bdca2e74);
+        
+    
+        var popup_31d4431b836ffe0815720c598198e48b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ceb1901735330c43a4c647a07e64c14 = $(`<div id="html_6ceb1901735330c43a4c647a07e64c14" style="width: 100.0%; height: 100.0%;">Point 35</div>`)[0];
+                popup_31d4431b836ffe0815720c598198e48b.setContent(html_6ceb1901735330c43a4c647a07e64c14);
+            
+        
+
+        marker_b2be4143f5f5a693905adeee7a3be6b3.bindPopup(popup_31d4431b836ffe0815720c598198e48b)
+        ;
+
+        
+    
+    
+            marker_b2be4143f5f5a693905adeee7a3be6b3.bindTooltip(
+                `<div>
+                     Nearby restaurant: Swallow's 
+ Nearby order: Tectonic Sculpture 03 (Walt: The Lock Ness Monster)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2879816bb2a4bc79265b43e6b89933ce = L.marker(
+                [43.048891, -76.157148],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_4b011d5c4549f49d0087c970e803e246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2879816bb2a4bc79265b43e6b89933ce.setIcon(icon_4b011d5c4549f49d0087c970e803e246);
+        
+    
+        var popup_bece0213742b80908004990bafb75526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9e5085a4e04c4f188572adc6dd1d97f = $(`<div id="html_a9e5085a4e04c4f188572adc6dd1d97f" style="width: 100.0%; height: 100.0%;">Point 36</div>`)[0];
+                popup_bece0213742b80908004990bafb75526.setContent(html_a9e5085a4e04c4f188572adc6dd1d97f);
+            
+        
+
+        marker_2879816bb2a4bc79265b43e6b89933ce.bindPopup(popup_bece0213742b80908004990bafb75526)
+        ;
+
+        
+    
+    
+            marker_2879816bb2a4bc79265b43e6b89933ce.bindTooltip(
+                `<div>
+                     Nearby restaurant: Swallow's 
+ Nearby order: 1022 W, Fayette St Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_432cd87809ef8e67b22ce02fa1839f1d = L.marker(
+                [43.044626, -76.149032],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_b78b37a25e1084140fd70e5c504874b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_432cd87809ef8e67b22ce02fa1839f1d.setIcon(icon_b78b37a25e1084140fd70e5c504874b7);
+        
+    
+        var popup_878a376eb26f743a2377ba5d0b326cf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcad107c486e25dd579417c3de733cae = $(`<div id="html_fcad107c486e25dd579417c3de733cae" style="width: 100.0%; height: 100.0%;">Point 37</div>`)[0];
+                popup_878a376eb26f743a2377ba5d0b326cf7.setContent(html_fcad107c486e25dd579417c3de733cae);
+            
+        
+
+        marker_432cd87809ef8e67b22ce02fa1839f1d.bindPopup(popup_878a376eb26f743a2377ba5d0b326cf7)
+        ;
+
+        
+    
+    
+            marker_432cd87809ef8e67b22ce02fa1839f1d.bindTooltip(
+                `<div>
+                     Nearby restaurant: Panini's 
+ Nearby order: Bicylce Capital of the World
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c379a84f3c37e6c94fb37e71c35a835d = L.marker(
+                [43.047932, -76.14676],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_5f311dc50279ce672caeda14c423a0d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c379a84f3c37e6c94fb37e71c35a835d.setIcon(icon_5f311dc50279ce672caeda14c423a0d1);
+        
+    
+        var popup_5cf5a9324a975833ec5d98f7cde07040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe51ad5cb87c263b3a8d8324139d0911 = $(`<div id="html_fe51ad5cb87c263b3a8d8324139d0911" style="width: 100.0%; height: 100.0%;">Point 38</div>`)[0];
+                popup_5cf5a9324a975833ec5d98f7cde07040.setContent(html_fe51ad5cb87c263b3a8d8324139d0911);
+            
+        
+
+        marker_c379a84f3c37e6c94fb37e71c35a835d.bindPopup(popup_5cf5a9324a975833ec5d98f7cde07040)
+        ;
+
+        
+    
+    
+            marker_c379a84f3c37e6c94fb37e71c35a835d.bindTooltip(
+                `<div>
+                     Nearby restaurant: City Hall Cafe 
+ Nearby order: Taras H. Shevchenko
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25f75600cf28a9f20a90fa343d13b272 = L.marker(
+                [43.053341, -76.147016],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_2d35b5206284a092566f077ecf841b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_25f75600cf28a9f20a90fa343d13b272.setIcon(icon_2d35b5206284a092566f077ecf841b69);
+        
+    
+        var popup_1fa22d923ae8000750310577a5b81852 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5584ea39387ad539d93fba0ff8b58426 = $(`<div id="html_5584ea39387ad539d93fba0ff8b58426" style="width: 100.0%; height: 100.0%;">Point 39</div>`)[0];
+                popup_1fa22d923ae8000750310577a5b81852.setContent(html_5584ea39387ad539d93fba0ff8b58426);
+            
+        
+
+        marker_25f75600cf28a9f20a90fa343d13b272.bindPopup(popup_1fa22d923ae8000750310577a5b81852)
+        ;
+
+        
+    
+    
+            marker_25f75600cf28a9f20a90fa343d13b272.bindTooltip(
+                `<div>
+                     Nearby restaurant: OIP-Original Italian Pizza 
+ Nearby order: Stone Throwers Monument
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67774053083235ff75869b76c28e0db6 = L.marker(
+                [43.047782, -76.145404],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_4a0796cc089c92844abae16039aaf1fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_67774053083235ff75869b76c28e0db6.setIcon(icon_4a0796cc089c92844abae16039aaf1fc);
+        
+    
+        var popup_123d63c1eab385d7dc75b0f0b3e8190c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddc32703fe2bee2667d239253d36457 = $(`<div id="html_bddc32703fe2bee2667d239253d36457" style="width: 100.0%; height: 100.0%;">Point 40</div>`)[0];
+                popup_123d63c1eab385d7dc75b0f0b3e8190c.setContent(html_bddc32703fe2bee2667d239253d36457);
+            
+        
+
+        marker_67774053083235ff75869b76c28e0db6.bindPopup(popup_123d63c1eab385d7dc75b0f0b3e8190c)
+        ;
+
+        
+    
+    
+            marker_67774053083235ff75869b76c28e0db6.bindTooltip(
+                `<div>
+                     Nearby restaurant: Kyoko's Japanese Restaurant 
+ Nearby order: Westside Geomatic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a17780e383fe3a3d5d1778a292dfcccc = L.marker(
+                [43.046871, -76.141889],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_3b9ef2b5bd8c19f7c4b861b1b43911a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a17780e383fe3a3d5d1778a292dfcccc.setIcon(icon_3b9ef2b5bd8c19f7c4b861b1b43911a5);
+        
+    
+        var popup_a0353e1945bcb1441f46b7450b5d7c07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4140a4b0c2fa656f0667f9bd4fadfb5a = $(`<div id="html_4140a4b0c2fa656f0667f9bd4fadfb5a" style="width: 100.0%; height: 100.0%;">Point 41</div>`)[0];
+                popup_a0353e1945bcb1441f46b7450b5d7c07.setContent(html_4140a4b0c2fa656f0667f9bd4fadfb5a);
+            
+        
+
+        marker_a17780e383fe3a3d5d1778a292dfcccc.bindPopup(popup_a0353e1945bcb1441f46b7450b5d7c07)
+        ;
+
+        
+    
+    
+            marker_a17780e383fe3a3d5d1778a292dfcccc.bindTooltip(
+                `<div>
+                     Nearby restaurant: Redfield's Restaurant 
+ Nearby order: Eva's Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb276f2a3fef7e4218edff79d6e8dc18 = L.marker(
+                [43.049185, -76.15703],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_6be4357843f8b18a3705025142daabdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cb276f2a3fef7e4218edff79d6e8dc18.setIcon(icon_6be4357843f8b18a3705025142daabdb);
+        
+    
+        var popup_35b1d09ccc898a5e7416ed8ae88879bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26061f6fbd3e3f856f33d88ccfa57eb2 = $(`<div id="html_26061f6fbd3e3f856f33d88ccfa57eb2" style="width: 100.0%; height: 100.0%;">Point 42</div>`)[0];
+                popup_35b1d09ccc898a5e7416ed8ae88879bf.setContent(html_26061f6fbd3e3f856f33d88ccfa57eb2);
+            
+        
+
+        marker_cb276f2a3fef7e4218edff79d6e8dc18.bindPopup(popup_35b1d09ccc898a5e7416ed8ae88879bf)
+        ;
+
+        
+    
+    
+            marker_cb276f2a3fef7e4218edff79d6e8dc18.bindTooltip(
+                `<div>
+                     Nearby restaurant: Super Fried Chicken 
+ Nearby order: Salmon Run Mosaic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_360374b167aa088500735cbc62cfac85 = L.marker(
+                [43.047086, -76.139388],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_015e36260763cfd7c3ac7478fa030020 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_360374b167aa088500735cbc62cfac85.setIcon(icon_015e36260763cfd7c3ac7478fa030020);
+        
+    
+        var popup_6a350dda9d024c4008bb728a5e8c6802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b0e144348b7f1af088013074b0aa49 = $(`<div id="html_14b0e144348b7f1af088013074b0aa49" style="width: 100.0%; height: 100.0%;">Point 43</div>`)[0];
+                popup_6a350dda9d024c4008bb728a5e8c6802.setContent(html_14b0e144348b7f1af088013074b0aa49);
+            
+        
+
+        marker_360374b167aa088500735cbc62cfac85.bindPopup(popup_6a350dda9d024c4008bb728a5e8c6802)
+        ;
+
+        
+    
+    
+            marker_360374b167aa088500735cbc62cfac85.bindTooltip(
+                `<div>
+                     Nearby restaurant: nan 
+ Nearby order: Onondaga Creekwalk Poster
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0742a58ec250dee24bbe2fc3422ad604 = L.marker(
+                [43.055394, -76.157268],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_c115c72ca512314a5c10534777aca7d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0742a58ec250dee24bbe2fc3422ad604.setIcon(icon_c115c72ca512314a5c10534777aca7d6);
+        
+    
+        var popup_5d289b87c4cca478b061d6bcd16e8a21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc49b6154c968e50fc30423c01825945 = $(`<div id="html_bc49b6154c968e50fc30423c01825945" style="width: 100.0%; height: 100.0%;">Point 44</div>`)[0];
+                popup_5d289b87c4cca478b061d6bcd16e8a21.setContent(html_bc49b6154c968e50fc30423c01825945);
+            
+        
+
+        marker_0742a58ec250dee24bbe2fc3422ad604.bindPopup(popup_5d289b87c4cca478b061d6bcd16e8a21)
+        ;
+
+        
+    
+    
+            marker_0742a58ec250dee24bbe2fc3422ad604.bindTooltip(
+                `<div>
+                     Nearby restaurant: PressRoom Pub 
+ Nearby order: Benjamin Franklin Statue
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc6f78facf671c29abe3128d233ee34a = L.marker(
+                [43.065738, -76.138537],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_e2d9696672b6dc0ecea582504511cd8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fc6f78facf671c29abe3128d233ee34a.setIcon(icon_e2d9696672b6dc0ecea582504511cd8c);
+        
+    
+        var popup_feaa25413b1974a65be026c6b9ed2b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeb045405b0e84314d3e633119532206 = $(`<div id="html_aeb045405b0e84314d3e633119532206" style="width: 100.0%; height: 100.0%;">Point 45</div>`)[0];
+                popup_feaa25413b1974a65be026c6b9ed2b05.setContent(html_aeb045405b0e84314d3e633119532206);
+            
+        
+
+        marker_fc6f78facf671c29abe3128d233ee34a.bindPopup(popup_feaa25413b1974a65be026c6b9ed2b05)
+        ;
+
+        
+    
+    
+            marker_fc6f78facf671c29abe3128d233ee34a.bindTooltip(
+                `<div>
+                     Nearby restaurant: The Thurman Cafe 
+ Nearby order: Lets Fly Syracuse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b643b5c5fbafce0607bd356b1e0c210d = L.marker(
+                [43.046178, -76.147329],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_9d004f79f386be553d281d47acee012d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b643b5c5fbafce0607bd356b1e0c210d.setIcon(icon_9d004f79f386be553d281d47acee012d);
+        
+    
+        var popup_ced81d94db6c6545fdacd154dad4884d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_116feebda3b7013235bff8efa18378b1 = $(`<div id="html_116feebda3b7013235bff8efa18378b1" style="width: 100.0%; height: 100.0%;">Point 46</div>`)[0];
+                popup_ced81d94db6c6545fdacd154dad4884d.setContent(html_116feebda3b7013235bff8efa18378b1);
+            
+        
+
+        marker_b643b5c5fbafce0607bd356b1e0c210d.bindPopup(popup_ced81d94db6c6545fdacd154dad4884d)
+        ;
+
+        
+    
+    
+            marker_b643b5c5fbafce0607bd356b1e0c210d.bindTooltip(
+                `<div>
+                     Nearby restaurant: City Hall Cafe 
+ Nearby order: General Gustavus Sniper 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a26d14ae82842bee4f727dbc759c355d = L.marker(
+                [43.0499, -76.155051],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_12f89fc44f73d0ec6b032f2c10bb87cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a26d14ae82842bee4f727dbc759c355d.setIcon(icon_12f89fc44f73d0ec6b032f2c10bb87cc);
+        
+    
+        var popup_5faa98d1b69f2ae82e0a2e0ccf9ca074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bb6992b875a4ca5e29f12ccf9bb46de = $(`<div id="html_9bb6992b875a4ca5e29f12ccf9bb46de" style="width: 100.0%; height: 100.0%;">Point 47</div>`)[0];
+                popup_5faa98d1b69f2ae82e0a2e0ccf9ca074.setContent(html_9bb6992b875a4ca5e29f12ccf9bb46de);
+            
+        
+
+        marker_a26d14ae82842bee4f727dbc759c355d.bindPopup(popup_5faa98d1b69f2ae82e0a2e0ccf9ca074)
+        ;
+
+        
+    
+    
+            marker_a26d14ae82842bee4f727dbc759c355d.bindTooltip(
+                `<div>
+                     Nearby restaurant: Frank's Franks Mobile Hotdog Stand 
+ Nearby order: Rose of No Man's Land
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c13fba05303fa71549a642ca016861fb = L.marker(
+                [43.047337, -76.123888],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_76c7354440a6728c22cbd2895d363426 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c13fba05303fa71549a642ca016861fb.setIcon(icon_76c7354440a6728c22cbd2895d363426);
+        
+    
+        var popup_6c7b1224befaec3b228760d153669749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_439a10c20db7594a5e2df88aa28b0a22 = $(`<div id="html_439a10c20db7594a5e2df88aa28b0a22" style="width: 100.0%; height: 100.0%;">Point 48</div>`)[0];
+                popup_6c7b1224befaec3b228760d153669749.setContent(html_439a10c20db7594a5e2df88aa28b0a22);
+            
+        
+
+        marker_c13fba05303fa71549a642ca016861fb.bindPopup(popup_6c7b1224befaec3b228760d153669749)
+        ;
+
+        
+    
+    
+            marker_c13fba05303fa71549a642ca016861fb.bindTooltip(
+                `<div>
+                     Nearby restaurant: Burger King 
+ Nearby order: Waiting for the Night Train
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bf1893595efc3e8bcdb56865db66011 = L.marker(
+                [43.026855, -76.165307],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_cb5d208f50f1fe70e5de1a9d2cca6693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2bf1893595efc3e8bcdb56865db66011.setIcon(icon_cb5d208f50f1fe70e5de1a9d2cca6693);
+        
+    
+        var popup_75cf35bac8c7e771d40aa2b77ee938ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebe1550e8b10d759448dd8d5549c4c3f = $(`<div id="html_ebe1550e8b10d759448dd8d5549c4c3f" style="width: 100.0%; height: 100.0%;">Point 49</div>`)[0];
+                popup_75cf35bac8c7e771d40aa2b77ee938ff.setContent(html_ebe1550e8b10d759448dd8d5549c4c3f);
+            
+        
+
+        marker_2bf1893595efc3e8bcdb56865db66011.bindPopup(popup_75cf35bac8c7e771d40aa2b77ee938ff)
+        ;
+
+        
+    
+    
+            marker_2bf1893595efc3e8bcdb56865db66011.bindTooltip(
+                `<div>
+                     Nearby restaurant: Tanya's Spanish Restaurant 
+ Nearby order: Be Yourself/Umbrellove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25e506831821a63a0eacf2418374c600 = L.marker(
+                [43.04629, -76.149301],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_3627e18f8ef1655b58294587789cbbd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_25e506831821a63a0eacf2418374c600.setIcon(icon_3627e18f8ef1655b58294587789cbbd6);
+        
+    
+        var popup_49a452d3120af90133f7004965d3e18c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b6797486bf134f745f8ab78b78df25f = $(`<div id="html_7b6797486bf134f745f8ab78b78df25f" style="width: 100.0%; height: 100.0%;">Point 50</div>`)[0];
+                popup_49a452d3120af90133f7004965d3e18c.setContent(html_7b6797486bf134f745f8ab78b78df25f);
+            
+        
+
+        marker_25e506831821a63a0eacf2418374c600.bindPopup(popup_49a452d3120af90133f7004965d3e18c)
+        ;
+
+        
+    
+    
+            marker_25e506831821a63a0eacf2418374c600.bindTooltip(
+                `<div>
+                     Nearby restaurant: Tang Flavor Chinese Food Square 
+ Nearby order: SyraViews Stereoscopes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28723b3b16b7ee8c0c73bedb8b934890 = L.marker(
+                [43.051069, -76.156092],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_8d4bd539ede1e9415fed9188939e58c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_28723b3b16b7ee8c0c73bedb8b934890.setIcon(icon_8d4bd539ede1e9415fed9188939e58c7);
+        
+    
+        var popup_813af999c1887d95eea405c7a1e23204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dd67f14339d3cac9762464be82a88e3 = $(`<div id="html_1dd67f14339d3cac9762464be82a88e3" style="width: 100.0%; height: 100.0%;">Point 51</div>`)[0];
+                popup_813af999c1887d95eea405c7a1e23204.setContent(html_1dd67f14339d3cac9762464be82a88e3);
+            
+        
+
+        marker_28723b3b16b7ee8c0c73bedb8b934890.bindPopup(popup_813af999c1887d95eea405c7a1e23204)
+        ;
+
+        
+    
+    
+            marker_28723b3b16b7ee8c0c73bedb8b934890.bindTooltip(
+                `<div>
+                     Nearby restaurant: Guadalajara Mexican restaurant 
+ Nearby order: Redfield Monument 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b983b2801bcb9202d23abfb1140193e3 = L.marker(
+                [43.047616, -76.145877],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_4bdcff61cbf16245f10bdeb6db374bd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b983b2801bcb9202d23abfb1140193e3.setIcon(icon_4bdcff61cbf16245f10bdeb6db374bd6);
+        
+    
+        var popup_da66986c17c6590de696863658bb2524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f475de5f1a48ce205fe35dc6abca530b = $(`<div id="html_f475de5f1a48ce205fe35dc6abca530b" style="width: 100.0%; height: 100.0%;">Point 52</div>`)[0];
+                popup_da66986c17c6590de696863658bb2524.setContent(html_f475de5f1a48ce205fe35dc6abca530b);
+            
+        
+
+        marker_b983b2801bcb9202d23abfb1140193e3.bindPopup(popup_da66986c17c6590de696863658bb2524)
+        ;
+
+        
+    
+    
+            marker_b983b2801bcb9202d23abfb1140193e3.bindTooltip(
+                `<div>
+                     Nearby restaurant: City Hall Cafe 
+ Nearby order: Syracuse Writers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cca613ca9afb7c9ff03c5fda36db7da3 = L.marker(
+                [43.051894, -76.141213],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_5b5a3c27f063fc58e642b82c37261e8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cca613ca9afb7c9ff03c5fda36db7da3.setIcon(icon_5b5a3c27f063fc58e642b82c37261e8b);
+        
+    
+        var popup_dd5e3a7912bd931994a76c398345bbc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a79764e3054beb91130f604e8b532e8 = $(`<div id="html_1a79764e3054beb91130f604e8b532e8" style="width: 100.0%; height: 100.0%;">Point 53</div>`)[0];
+                popup_dd5e3a7912bd931994a76c398345bbc2.setContent(html_1a79764e3054beb91130f604e8b532e8);
+            
+        
+
+        marker_cca613ca9afb7c9ff03c5fda36db7da3.bindPopup(popup_dd5e3a7912bd931994a76c398345bbc2)
+        ;
+
+        
+    
+    
+            marker_cca613ca9afb7c9ff03c5fda36db7da3.bindTooltip(
+                `<div>
+                     Nearby restaurant: Laci's Tapas 
+ Nearby order: Inventive Spirit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca4bf476b8821639c0113bda2aa638ec = L.marker(
+                [43.051012, -76.149001],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_76387e834f0e520b949160263d278d5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ca4bf476b8821639c0113bda2aa638ec.setIcon(icon_76387e834f0e520b949160263d278d5a);
+        
+    
+        var popup_4f62fc6000f0b6ff1fd0e476bb5b48f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15df90cbd442f0676ca624554430ce43 = $(`<div id="html_15df90cbd442f0676ca624554430ce43" style="width: 100.0%; height: 100.0%;">Point 54</div>`)[0];
+                popup_4f62fc6000f0b6ff1fd0e476bb5b48f8.setContent(html_15df90cbd442f0676ca624554430ce43);
+            
+        
+
+        marker_ca4bf476b8821639c0113bda2aa638ec.bindPopup(popup_4f62fc6000f0b6ff1fd0e476bb5b48f8)
+        ;
+
+        
+    
+    
+            marker_ca4bf476b8821639c0113bda2aa638ec.bindTooltip(
+                `<div>
+                     Nearby restaurant: Water Street Bagel Co. 
+ Nearby order: Bells of Surrender
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33861378abc86575852ec5e11c79fcea = L.marker(
+                [43.040378, -76.119466],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_f75a7ff5a0e966cba5cb2a0b5fb2c792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_33861378abc86575852ec5e11c79fcea.setIcon(icon_f75a7ff5a0e966cba5cb2a0b5fb2c792);
+        
+    
+        var popup_38e7202177b0b54733b49032fc8f38b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da5765168513bd03acb425058a1369e4 = $(`<div id="html_da5765168513bd03acb425058a1369e4" style="width: 100.0%; height: 100.0%;">Point 55</div>`)[0];
+                popup_38e7202177b0b54733b49032fc8f38b9.setContent(html_da5765168513bd03acb425058a1369e4);
+            
+        
+
+        marker_33861378abc86575852ec5e11c79fcea.bindPopup(popup_38e7202177b0b54733b49032fc8f38b9)
+        ;
+
+        
+    
+    
+            marker_33861378abc86575852ec5e11c79fcea.bindTooltip(
+                `<div>
+                     Nearby restaurant: Las Delicias 
+ Nearby order: Jerry Rescue Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4aa935065de5d5445d667aa77741d28 = L.marker(
+                [43.041605, -76.119129],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_434d19be54c539ecb77a17e98425c064 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a4aa935065de5d5445d667aa77741d28.setIcon(icon_434d19be54c539ecb77a17e98425c064);
+        
+    
+        var popup_5dd5cf9742ec810aa9f820b615b3cbb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e9b9a4d2d0575ebab0b36b6542122e = $(`<div id="html_59e9b9a4d2d0575ebab0b36b6542122e" style="width: 100.0%; height: 100.0%;">Point 56</div>`)[0];
+                popup_5dd5cf9742ec810aa9f820b615b3cbb7.setContent(html_59e9b9a4d2d0575ebab0b36b6542122e);
+            
+        
+
+        marker_a4aa935065de5d5445d667aa77741d28.bindPopup(popup_5dd5cf9742ec810aa9f820b615b3cbb7)
+        ;
+
+        
+    
+    
+            marker_a4aa935065de5d5445d667aa77741d28.bindTooltip(
+                `<div>
+                     Nearby restaurant: Mom's 
+ Nearby order: Three Seas for Syracuse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9579a7bf93ec17e2c5c229d54843c2ee = L.marker(
+                [43.041378, -76.118779],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_39a46de1f199cfb8f475983adf06832d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9579a7bf93ec17e2c5c229d54843c2ee.setIcon(icon_39a46de1f199cfb8f475983adf06832d);
+        
+    
+        var popup_f3af29abc46abab72b723fee90d634d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_414595de820ca6a667665831ca4199f4 = $(`<div id="html_414595de820ca6a667665831ca4199f4" style="width: 100.0%; height: 100.0%;">Point 57</div>`)[0];
+                popup_f3af29abc46abab72b723fee90d634d7.setContent(html_414595de820ca6a667665831ca4199f4);
+            
+        
+
+        marker_9579a7bf93ec17e2c5c229d54843c2ee.bindPopup(popup_f3af29abc46abab72b723fee90d634d7)
+        ;
+
+        
+    
+    
+            marker_9579a7bf93ec17e2c5c229d54843c2ee.bindTooltip(
+                `<div>
+                     Nearby restaurant: Papa Johns Pizza 
+ Nearby order: Park History
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2cd8b67bb1052b819dc51d1619177e2 = L.marker(
+                [43.048499, -76.151209],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_b80a552aca7c5bc6183d16f63cb53615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d2cd8b67bb1052b819dc51d1619177e2.setIcon(icon_b80a552aca7c5bc6183d16f63cb53615);
+        
+    
+        var popup_80c74afb65609f9ed3483dd9aeafb6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a941ed1e6b4afeb9b9b6e27bd44d637 = $(`<div id="html_7a941ed1e6b4afeb9b9b6e27bd44d637" style="width: 100.0%; height: 100.0%;">Point 58</div>`)[0];
+                popup_80c74afb65609f9ed3483dd9aeafb6a6.setContent(html_7a941ed1e6b4afeb9b9b6e27bd44d637);
+            
+        
+
+        marker_d2cd8b67bb1052b819dc51d1619177e2.bindPopup(popup_80c74afb65609f9ed3483dd9aeafb6a6)
+        ;
+
+        
+    
+    
+            marker_d2cd8b67bb1052b819dc51d1619177e2.bindTooltip(
+                `<div>
+                     Nearby restaurant: Soup R Salads 
+ Nearby order: Reach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e1b9175fe13b589112dd488ff0f8608 = L.marker(
+                [43.061094, -76.154257],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_81c3aec7e587b42e12a6a60213714dce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7e1b9175fe13b589112dd488ff0f8608.setIcon(icon_81c3aec7e587b42e12a6a60213714dce);
+        
+    
+        var popup_1cd8826a29c8a377d065035fd19a0e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b71e75495233329b1b66b9b4e568acc = $(`<div id="html_5b71e75495233329b1b66b9b4e568acc" style="width: 100.0%; height: 100.0%;">Point 59</div>`)[0];
+                popup_1cd8826a29c8a377d065035fd19a0e3a.setContent(html_5b71e75495233329b1b66b9b4e568acc);
+            
+        
+
+        marker_7e1b9175fe13b589112dd488ff0f8608.bindPopup(popup_1cd8826a29c8a377d065035fd19a0e3a)
+        ;
+
+        
+    
+    
+            marker_7e1b9175fe13b589112dd488ff0f8608.bindTooltip(
+                `<div>
+                     Nearby restaurant: Exclusives Bar And Restaurant 
+ Nearby order: Boom Babies
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf893ec86097a6ec9ab4b061c2ea4ca = L.marker(
+                [43.041619, -76.119923],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_425fd29eef1d3255f2911677b7217b83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ccf893ec86097a6ec9ab4b061c2ea4ca.setIcon(icon_425fd29eef1d3255f2911677b7217b83);
+        
+    
+        var popup_9f92b4bf67d72e0fb217045d300a363d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_351823731a563a0fc3c6e87409e30aed = $(`<div id="html_351823731a563a0fc3c6e87409e30aed" style="width: 100.0%; height: 100.0%;">Point 60</div>`)[0];
+                popup_9f92b4bf67d72e0fb217045d300a363d.setContent(html_351823731a563a0fc3c6e87409e30aed);
+            
+        
+
+        marker_ccf893ec86097a6ec9ab4b061c2ea4ca.bindPopup(popup_9f92b4bf67d72e0fb217045d300a363d)
+        ;
+
+        
+    
+    
+            marker_ccf893ec86097a6ec9ab4b061c2ea4ca.bindTooltip(
+                `<div>
+                     Nearby restaurant: Asahi Japanese Restaurant 
+ Nearby order: Mom's Diner Mosaic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f112f35b9aa28e12ee1d01a00146fe0 = L.marker(
+                [43.048497, -76.156179],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_c09d254d3b560e40c0d9678a2002ba19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8f112f35b9aa28e12ee1d01a00146fe0.setIcon(icon_c09d254d3b560e40c0d9678a2002ba19);
+        
+    
+        var popup_427ca0db657be82890c604dd59e9ba07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfe47292f3cceb5c5c803687fe8bb98d = $(`<div id="html_dfe47292f3cceb5c5c803687fe8bb98d" style="width: 100.0%; height: 100.0%;">Point 61</div>`)[0];
+                popup_427ca0db657be82890c604dd59e9ba07.setContent(html_dfe47292f3cceb5c5c803687fe8bb98d);
+            
+        
+
+        marker_8f112f35b9aa28e12ee1d01a00146fe0.bindPopup(popup_427ca0db657be82890c604dd59e9ba07)
+        ;
+
+        
+    
+    
+            marker_8f112f35b9aa28e12ee1d01a00146fe0.bindTooltip(
+                `<div>
+                     Nearby restaurant: Platinum Amala @ Lexington Market 
+ Nearby order: Middle Eastern Dreams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30b0a9ba506d93f84730fc6f3d5e7977 = L.marker(
+                [43.048973, -76.158146],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_2228536f8dffeab3cf916f439e016c92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_30b0a9ba506d93f84730fc6f3d5e7977.setIcon(icon_2228536f8dffeab3cf916f439e016c92);
+        
+    
+        var popup_52aa5684f0b88d9f3ed9409f077e0f04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2e968be15de671555c536aed51099a4 = $(`<div id="html_f2e968be15de671555c536aed51099a4" style="width: 100.0%; height: 100.0%;">Point 62</div>`)[0];
+                popup_52aa5684f0b88d9f3ed9409f077e0f04.setContent(html_f2e968be15de671555c536aed51099a4);
+            
+        
+
+        marker_30b0a9ba506d93f84730fc6f3d5e7977.bindPopup(popup_52aa5684f0b88d9f3ed9409f077e0f04)
+        ;
+
+        
+    
+    
+            marker_30b0a9ba506d93f84730fc6f3d5e7977.bindTooltip(
+                `<div>
+                     Nearby restaurant: Decir Algo 
+ Nearby order: Peace by Piece 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1caa5522da037ead5764b1e8ce48936 = L.marker(
+                [43.056433, -76.161227],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_7796bbe39d4d1c71a6323cb317462bd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a1caa5522da037ead5764b1e8ce48936.setIcon(icon_7796bbe39d4d1c71a6323cb317462bd7);
+        
+    
+        var popup_45976888d5db167593823f2082ba5dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c3096a4e805655acc462773988654c2 = $(`<div id="html_0c3096a4e805655acc462773988654c2" style="width: 100.0%; height: 100.0%;">Point 63</div>`)[0];
+                popup_45976888d5db167593823f2082ba5dc0.setContent(html_0c3096a4e805655acc462773988654c2);
+            
+        
+
+        marker_a1caa5522da037ead5764b1e8ce48936.bindPopup(popup_45976888d5db167593823f2082ba5dc0)
+        ;
+
+        
+    
+    
+            marker_a1caa5522da037ead5764b1e8ce48936.bindTooltip(
+                `<div>
+                     Nearby restaurant: Swallow's 
+ Nearby order: Community Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8775ec02273e609e61b779d34ad0edc4 = L.marker(
+                [43.045117, -76.171451],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_243f894a5196224d4375f23e52067b57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8775ec02273e609e61b779d34ad0edc4.setIcon(icon_243f894a5196224d4375f23e52067b57);
+        
+    
+        var popup_a6c7e25827c08d70af28728655fb6f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e30627b2694e6da61a125db339f86b75 = $(`<div id="html_e30627b2694e6da61a125db339f86b75" style="width: 100.0%; height: 100.0%;">Point 64</div>`)[0];
+                popup_a6c7e25827c08d70af28728655fb6f38.setContent(html_e30627b2694e6da61a125db339f86b75);
+            
+        
+
+        marker_8775ec02273e609e61b779d34ad0edc4.bindPopup(popup_a6c7e25827c08d70af28728655fb6f38)
+        ;
+
+        
+    
+    
+            marker_8775ec02273e609e61b779d34ad0edc4.bindTooltip(
+                `<div>
+                     Nearby restaurant: Ponchito's Taqueria 
+ Nearby order: Cycle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2fb20dfad1bcc1472eaf7a6da953633 = L.marker(
+                [43.046069, -76.170632],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_7aee7b4080191594b508475b45935003 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b2fb20dfad1bcc1472eaf7a6da953633.setIcon(icon_7aee7b4080191594b508475b45935003);
+        
+    
+        var popup_e81ad99bed97c0ecb2763d11832b3929 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29ad200f0911c8aa625faf6e7b5ac2cc = $(`<div id="html_29ad200f0911c8aa625faf6e7b5ac2cc" style="width: 100.0%; height: 100.0%;">Point 65</div>`)[0];
+                popup_e81ad99bed97c0ecb2763d11832b3929.setContent(html_29ad200f0911c8aa625faf6e7b5ac2cc);
+            
+        
+
+        marker_b2fb20dfad1bcc1472eaf7a6da953633.bindPopup(popup_e81ad99bed97c0ecb2763d11832b3929)
+        ;
+
+        
+    
+    
+            marker_b2fb20dfad1bcc1472eaf7a6da953633.bindTooltip(
+                `<div>
+                     Nearby restaurant: Ponchito's Taqueria 
+ Nearby order: We are the Village within the City
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b3f1b12bdb24fe495e2d4d6df52b860 = L.marker(
+                [43.048774, -76.141028],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_aceee4c3af4c0f8531c2f8d84d423884 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1b3f1b12bdb24fe495e2d4d6df52b860.setIcon(icon_aceee4c3af4c0f8531c2f8d84d423884);
+        
+    
+        var popup_e68f9397d10cb04a4f34407901298ffc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03049a37d280db66343c8f9be235ff2f = $(`<div id="html_03049a37d280db66343c8f9be235ff2f" style="width: 100.0%; height: 100.0%;">Point 66</div>`)[0];
+                popup_e68f9397d10cb04a4f34407901298ffc.setContent(html_03049a37d280db66343c8f9be235ff2f);
+            
+        
+
+        marker_1b3f1b12bdb24fe495e2d4d6df52b860.bindPopup(popup_e68f9397d10cb04a4f34407901298ffc)
+        ;
+
+        
+    
+    
+            marker_1b3f1b12bdb24fe495e2d4d6df52b860.bindTooltip(
+                `<div>
+                     Nearby restaurant: XO Taco 
+ Nearby order: Project C-Inspiration Through Art
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed848f3051f5070905f5e8f2f02b2580 = L.marker(
+                [43.071981, -76.14212],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_0733973c646ae96dc4c0fcb7d8def4e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ed848f3051f5070905f5e8f2f02b2580.setIcon(icon_0733973c646ae96dc4c0fcb7d8def4e3);
+        
+    
+        var popup_0728f614724ba804f0fe0f0366dc75d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df75ebc8f1e24533f73e24d7536bba90 = $(`<div id="html_df75ebc8f1e24533f73e24d7536bba90" style="width: 100.0%; height: 100.0%;">Point 67</div>`)[0];
+                popup_0728f614724ba804f0fe0f0366dc75d5.setContent(html_df75ebc8f1e24533f73e24d7536bba90);
+            
+        
+
+        marker_ed848f3051f5070905f5e8f2f02b2580.bindPopup(popup_0728f614724ba804f0fe0f0366dc75d5)
+        ;
+
+        
+    
+    
+            marker_ed848f3051f5070905f5e8f2f02b2580.bindTooltip(
+                `<div>
+                     Nearby restaurant: Peppino's Restaurant & Catering 
+ Nearby order: Goethe and Schiller
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39f77293ca4b698c337263d25c2a5008 = L.marker(
+                [43.041191, -76.119034],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_200ac4a14f433bb22ea716c81b2b889f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_39f77293ca4b698c337263d25c2a5008.setIcon(icon_200ac4a14f433bb22ea716c81b2b889f);
+        
+    
+        var popup_1234956394de36fbdd19998bf9f520ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2b704327ddbfd359a250726d24003ac = $(`<div id="html_f2b704327ddbfd359a250726d24003ac" style="width: 100.0%; height: 100.0%;">Point 68</div>`)[0];
+                popup_1234956394de36fbdd19998bf9f520ef.setContent(html_f2b704327ddbfd359a250726d24003ac);
+            
+        
+
+        marker_39f77293ca4b698c337263d25c2a5008.bindPopup(popup_1234956394de36fbdd19998bf9f520ef)
+        ;
+
+        
+    
+    
+            marker_39f77293ca4b698c337263d25c2a5008.bindTooltip(
+                `<div>
+                     Nearby restaurant: Mom's 
+ Nearby order: Diversity Lives Heree
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc7c77160bfc07957e22299f7d5a8fda = L.marker(
+                [43.058666, -76.152398],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_f2ca7a8da9895c4ece8c950d43af1663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fc7c77160bfc07957e22299f7d5a8fda.setIcon(icon_f2ca7a8da9895c4ece8c950d43af1663);
+        
+    
+        var popup_a044f483be598dbc11558359f0620738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80b0b72d8b524018eb726b4d0d2a4072 = $(`<div id="html_80b0b72d8b524018eb726b4d0d2a4072" style="width: 100.0%; height: 100.0%;">Point 69</div>`)[0];
+                popup_a044f483be598dbc11558359f0620738.setContent(html_80b0b72d8b524018eb726b4d0d2a4072);
+            
+        
+
+        marker_fc7c77160bfc07957e22299f7d5a8fda.bindPopup(popup_a044f483be598dbc11558359f0620738)
+        ;
+
+        
+    
+    
+            marker_fc7c77160bfc07957e22299f7d5a8fda.bindTooltip(
+                `<div>
+                     Nearby restaurant: Francesca's Cucina 
+ Nearby order: Lock Alley Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef045e43de45686ff838ea654760461e = L.marker(
+                [43.048515, -76.15657],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_6b5d20a538e1ba347a608b7ae87d4341 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ef045e43de45686ff838ea654760461e.setIcon(icon_6b5d20a538e1ba347a608b7ae87d4341);
+        
+    
+        var popup_0cab27fed16f5d86d9f69972c96634b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e24c60a303445fe2c3ea035d314d0f4 = $(`<div id="html_0e24c60a303445fe2c3ea035d314d0f4" style="width: 100.0%; height: 100.0%;">Point 70</div>`)[0];
+                popup_0cab27fed16f5d86d9f69972c96634b5.setContent(html_0e24c60a303445fe2c3ea035d314d0f4);
+            
+        
+
+        marker_ef045e43de45686ff838ea654760461e.bindPopup(popup_0cab27fed16f5d86d9f69972c96634b5)
+        ;
+
+        
+    
+    
+            marker_ef045e43de45686ff838ea654760461e.bindTooltip(
+                `<div>
+                     Nearby restaurant: Angie's Soul Food 
+ Nearby order: LeMoyne Drinking Fountain
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8891eb0ddcaa46b9632028b80848d4da = L.marker(
+                [43.059561, -76.199771],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_fa3ff5b9d456a22be2fbc2357774ceb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8891eb0ddcaa46b9632028b80848d4da.setIcon(icon_fa3ff5b9d456a22be2fbc2357774ceb1);
+        
+    
+        var popup_4ea1c6732f9522275f0e88926dd305a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b8d5cbead1088853ab3123243fbf36e = $(`<div id="html_2b8d5cbead1088853ab3123243fbf36e" style="width: 100.0%; height: 100.0%;">Point 71</div>`)[0];
+                popup_4ea1c6732f9522275f0e88926dd305a4.setContent(html_2b8d5cbead1088853ab3123243fbf36e);
+            
+        
+
+        marker_8891eb0ddcaa46b9632028b80848d4da.bindPopup(popup_4ea1c6732f9522275f0e88926dd305a4)
+        ;
+
+        
+    
+    
+            marker_8891eb0ddcaa46b9632028b80848d4da.bindTooltip(
+                `<div>
+                     Nearby restaurant: Eva's European Sweets 
+ Nearby order: Salt City Market Mural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_627f418e9cb2fd08198b9f9534b5e722 = L.marker(
+                [43.047823, -76.162124],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_decaf6d157988d5a195e6427be578016 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_627f418e9cb2fd08198b9f9534b5e722.setIcon(icon_decaf6d157988d5a195e6427be578016);
+        
+    
+        var popup_1a4f0338fafeeb63af96ca6bbd1812bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_022aedd4a3d4755a56c1df0ea89245d0 = $(`<div id="html_022aedd4a3d4755a56c1df0ea89245d0" style="width: 100.0%; height: 100.0%;">Point 72</div>`)[0];
+                popup_1a4f0338fafeeb63af96ca6bbd1812bb.setContent(html_022aedd4a3d4755a56c1df0ea89245d0);
+            
+        
+
+        marker_627f418e9cb2fd08198b9f9534b5e722.bindPopup(popup_1a4f0338fafeeb63af96ca6bbd1812bb)
+        ;
+
+        
+    
+    
+            marker_627f418e9cb2fd08198b9f9534b5e722.bindTooltip(
+                `<div>
+                     Nearby restaurant: Angie's Soul Food 
+ Nearby order: Rock of the Marne
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ad33fcccd9a3565fdf12ddc1ce44787 = L.marker(
+                [43.049369, -76.120329],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_0dd03df992debc0df7713d592267a114 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4ad33fcccd9a3565fdf12ddc1ce44787.setIcon(icon_0dd03df992debc0df7713d592267a114);
+        
+    
+        var popup_889e316bf54341519afcfb58538fae3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1906e8bc77eb9fdcfc9fae029e205070 = $(`<div id="html_1906e8bc77eb9fdcfc9fae029e205070" style="width: 100.0%; height: 100.0%;">Point 73</div>`)[0];
+                popup_889e316bf54341519afcfb58538fae3e.setContent(html_1906e8bc77eb9fdcfc9fae029e205070);
+            
+        
+
+        marker_4ad33fcccd9a3565fdf12ddc1ce44787.bindPopup(popup_889e316bf54341519afcfb58538fae3e)
+        ;
+
+        
+    
+    
+            marker_4ad33fcccd9a3565fdf12ddc1ce44787.bindTooltip(
+                `<div>
+                     Nearby restaurant: Mi Casa Grande 
+ Nearby order: Spanish War Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0f1a05af26733b7959f43ad18e42530 = L.marker(
+                [43.049725, -76.146012],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_8a20a050bdd97dd9a4c532ead88cfab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a0f1a05af26733b7959f43ad18e42530.setIcon(icon_8a20a050bdd97dd9a4c532ead88cfab8);
+        
+    
+        var popup_cc2ff6b7e56f4607d622957e34c6d27b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b90ed76f3d2662d16e6d14895824cbb5 = $(`<div id="html_b90ed76f3d2662d16e6d14895824cbb5" style="width: 100.0%; height: 100.0%;">Point 74</div>`)[0];
+                popup_cc2ff6b7e56f4607d622957e34c6d27b.setContent(html_b90ed76f3d2662d16e6d14895824cbb5);
+            
+        
+
+        marker_a0f1a05af26733b7959f43ad18e42530.bindPopup(popup_cc2ff6b7e56f4607d622957e34c6d27b)
+        ;
+
+        
+    
+    
+            marker_a0f1a05af26733b7959f43ad18e42530.bindTooltip(
+                `<div>
+                     Nearby restaurant: nan 
+ Nearby order: Southside Mural Project
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5dfa6f28a12fd40511ca62090b99650 = L.marker(
+                [43.044865, -76.152691],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_d54ddabd44ce2097be34690eb974ff9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e5dfa6f28a12fd40511ca62090b99650.setIcon(icon_d54ddabd44ce2097be34690eb974ff9e);
+        
+    
+        var popup_34eaef23b8d1d5f9657386f852be69b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11e939c5be908dcc5139ffcf48e674b5 = $(`<div id="html_11e939c5be908dcc5139ffcf48e674b5" style="width: 100.0%; height: 100.0%;">Point 75</div>`)[0];
+                popup_34eaef23b8d1d5f9657386f852be69b1.setContent(html_11e939c5be908dcc5139ffcf48e674b5);
+            
+        
+
+        marker_e5dfa6f28a12fd40511ca62090b99650.bindPopup(popup_34eaef23b8d1d5f9657386f852be69b1)
+        ;
+
+        
+    
+    
+            marker_e5dfa6f28a12fd40511ca62090b99650.bindTooltip(
+                `<div>
+                     Nearby restaurant: Cake Bar 
+ Nearby order: Libba Cotten Grove Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4406ff668090d7c539f8fa4346f21a0 = L.marker(
+                [43.068128, -76.112995],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_7a0e80ff2d5c64ed0cc43b5f22398d95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e4406ff668090d7c539f8fa4346f21a0.setIcon(icon_7a0e80ff2d5c64ed0cc43b5f22398d95);
+        
+    
+        var popup_683f9bf9213ce0c49e9cc0e3c4cf52ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_941ecfe902d2585efacb66c978673104 = $(`<div id="html_941ecfe902d2585efacb66c978673104" style="width: 100.0%; height: 100.0%;">Point 76</div>`)[0];
+                popup_683f9bf9213ce0c49e9cc0e3c4cf52ca.setContent(html_941ecfe902d2585efacb66c978673104);
+            
+        
+
+        marker_e4406ff668090d7c539f8fa4346f21a0.bindPopup(popup_683f9bf9213ce0c49e9cc0e3c4cf52ca)
+        ;
+
+        
+    
+    
+            marker_e4406ff668090d7c539f8fa4346f21a0.bindTooltip(
+                `<div>
+                     Nearby restaurant: KrunchBird 
+ Nearby order: Rising
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18bc2b8c282985b6e3cf65db1a2c3843 = L.marker(
+                [43.039379, -76.150402],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_ab6fa49935f5b5d948333e96f06c1335 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_18bc2b8c282985b6e3cf65db1a2c3843.setIcon(icon_ab6fa49935f5b5d948333e96f06c1335);
+        
+    
+        var popup_cffb022647170e1d4956447ac562b153 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6281ab3de3d5744e76003cc30d01fef = $(`<div id="html_f6281ab3de3d5744e76003cc30d01fef" style="width: 100.0%; height: 100.0%;">Point 77</div>`)[0];
+                popup_cffb022647170e1d4956447ac562b153.setContent(html_f6281ab3de3d5744e76003cc30d01fef);
+            
+        
+
+        marker_18bc2b8c282985b6e3cf65db1a2c3843.bindPopup(popup_cffb022647170e1d4956447ac562b153)
+        ;
+
+        
+    
+    
+            marker_18bc2b8c282985b6e3cf65db1a2c3843.bindTooltip(
+                `<div>
+                     Nearby restaurant: South Side Wings 
+ Nearby order: Four Seasons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc4ae3853d83de0153ca13d8fcd46770 = L.marker(
+                [43.047617, -76.148531],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_62d6ccca626a425a5006809744741f19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fc4ae3853d83de0153ca13d8fcd46770.setIcon(icon_62d6ccca626a425a5006809744741f19);
+        
+    
+        var popup_a0325f0a958d1592f9abe7cc0398a0c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67bfc120b18a8babee4a90a51a3a4f13 = $(`<div id="html_67bfc120b18a8babee4a90a51a3a4f13" style="width: 100.0%; height: 100.0%;">Point 78</div>`)[0];
+                popup_a0325f0a958d1592f9abe7cc0398a0c2.setContent(html_67bfc120b18a8babee4a90a51a3a4f13);
+            
+        
+
+        marker_fc4ae3853d83de0153ca13d8fcd46770.bindPopup(popup_a0325f0a958d1592f9abe7cc0398a0c2)
+        ;
+
+        
+    
+    
+            marker_fc4ae3853d83de0153ca13d8fcd46770.bindTooltip(
+                `<div>
+                     Nearby restaurant: 317 @ Montgomery Street 
+ Nearby order: Mountain Goat Monument
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d019e88b0f1f777950ef63c1e094fee = L.marker(
+                [43.047776, -76.155383],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_f1f95955e11fc3892a91b4c9638669d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8d019e88b0f1f777950ef63c1e094fee.setIcon(icon_f1f95955e11fc3892a91b4c9638669d3);
+        
+    
+        var popup_af9a41d28bf3e9a0b20cd2a31049eb89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b976e1f14965dc8c839e8e0e7dc7beea = $(`<div id="html_b976e1f14965dc8c839e8e0e7dc7beea" style="width: 100.0%; height: 100.0%;">Point 79</div>`)[0];
+                popup_af9a41d28bf3e9a0b20cd2a31049eb89.setContent(html_b976e1f14965dc8c839e8e0e7dc7beea);
+            
+        
+
+        marker_8d019e88b0f1f777950ef63c1e094fee.bindPopup(popup_af9a41d28bf3e9a0b20cd2a31049eb89)
+        ;
+
+        
+    
+    
+            marker_8d019e88b0f1f777950ef63c1e094fee.bindTooltip(
+                `<div>
+                     Nearby restaurant: Margaritas Mexican Cantina 
+ Nearby order: Honoring the Onondaga Creek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b47135e517704ee5fcc2a9f91a27a24f = L.marker(
+                [43.04935, -76.152557],
+                {}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var icon_d7d9212e9d8a4d40fd7076416b022fb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b47135e517704ee5fcc2a9f91a27a24f.setIcon(icon_d7d9212e9d8a4d40fd7076416b022fb5);
+        
+    
+        var popup_e097b3c9819f3ea476808cf7ed6ddf02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a90a1d9e37829a244f1d864d00811c3 = $(`<div id="html_5a90a1d9e37829a244f1d864d00811c3" style="width: 100.0%; height: 100.0%;">Point 80</div>`)[0];
+                popup_e097b3c9819f3ea476808cf7ed6ddf02.setContent(html_5a90a1d9e37829a244f1d864d00811c3);
+            
+        
+
+        marker_b47135e517704ee5fcc2a9f91a27a24f.bindPopup(popup_e097b3c9819f3ea476808cf7ed6ddf02)
+        ;
+
+        
+    
+    
+            marker_b47135e517704ee5fcc2a9f91a27a24f.bindTooltip(
+                `<div>
+                     Nearby restaurant: Darwin On Clinton 
+ Nearby order: Community as Family
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d930b6f9278dcfc5e472eed304137e75 = L.polyline(
+                [[43.047076, -76.14775], [43.048292, -76.1796]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_86338313732db7e22b6c8eadd001bdd4 = L.polyline(
+                [[43.048292, -76.1796], [43.046728, -76.185513]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_42f2137950e202e00da47df2043d9729 = L.polyline(
+                [[43.046728, -76.185513], [43.051799, -76.151894]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_786caf12538944271d8b5085892a9b0b = L.polyline(
+                [[43.051799, -76.151894], [43.045603, -76.150646]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_2d9c6ef253a84893721230fa554bcca2 = L.polyline(
+                [[43.045603, -76.150646], [43.070187, -76.162312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_c162c636e1b80a34c4f4a7d44f1d09dd = L.polyline(
+                [[43.070187, -76.162312], [43.046844, -76.149104]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_ee073933f4aea5da7b10aa62cecbdbfa = L.polyline(
+                [[43.046844, -76.149104], [43.056447, -76.151855]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_154b7a96044679dc677acaf21ed03e06 = L.polyline(
+                [[43.056447, -76.151855], [43.042526, -76.151139]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_7edf94ed778fcf02da69e9f992eba11c = L.polyline(
+                [[43.042526, -76.151139], [43.041961, -76.151029]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_26156b4504be918bda191fbdbd3702bd = L.polyline(
+                [[43.041961, -76.151029], [43.050729, -76.153327]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_20f76aedbc375d33dcaadf24d861304c = L.polyline(
+                [[43.050729, -76.153327], [43.034322, -76.147506]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_012adc14f12ac83d61257e8dfad904be = L.polyline(
+                [[43.034322, -76.147506], [43.048339, -76.146501]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_fdfc704cfdb2e3808b8dd5c460379d43 = L.polyline(
+                [[43.048339, -76.146501], [43.048341, -76.146779]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_2931a7ec47e402394fcf6b840428cc75 = L.polyline(
+                [[43.048341, -76.146779], [43.04835, -76.14713]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_5e6863d040a0589190340a6dc0059560 = L.polyline(
+                [[43.04835, -76.14713], [43.048332, -76.14713]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_672c2725927bdeaceb735ea916876f8c = L.polyline(
+                [[43.048332, -76.14713], [43.047183, -76.141848]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_a2d406c7c5f45ac0358eedd37de01cad = L.polyline(
+                [[43.047183, -76.141848], [43.057096, -76.15683]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_90d568a8c9ce6de9a4c1938faa6836eb = L.polyline(
+                [[43.057096, -76.15683], [43.051094, -76.152937]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8a13731236ac40167a6c2ee1c99834dd = L.polyline(
+                [[43.051094, -76.152937], [43.069573, -76.141616]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_56a18867f75f0b264c37c27e0ed07e98 = L.polyline(
+                [[43.069573, -76.141616], [43.045599, -76.150671]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_25485704736a4f621f9a0f3971e4a5e8 = L.polyline(
+                [[43.045599, -76.150671], [43.0412303, -76.1624929]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_d8d0c3d2045f963dc61ceef54b9baddc = L.polyline(
+                [[43.0412303, -76.1624929], [43.042733, -76.12441]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_bae3011855f11c77b562c662a3b9d920 = L.polyline(
+                [[43.042733, -76.12441], [43.04967, -76.150101]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_4f71e9131e7e00ea44175322b656de64 = L.polyline(
+                [[43.04967, -76.150101], [43.048519, -76.150608]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_0441591efa8b597257e601f59d94a3b0 = L.polyline(
+                [[43.048519, -76.150608], [43.041182, -76.162281]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_d01548295e02d44874e4253c1732b708 = L.polyline(
+                [[43.041182, -76.162281], [43.052589, -76.187373]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_9fd52cc8b1102b5418251ea546c3b1f7 = L.polyline(
+                [[43.052589, -76.187373], [43.040887, -76.11844]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_555e14f122618ccb3414ff236e67e5f4 = L.polyline(
+                [[43.040887, -76.11844], [43.046469, -76.16935]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_cd59720a9bf4cbeda579e40fd9886b16 = L.polyline(
+                [[43.046469, -76.16935], [43.0011259, -76.1524237]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_466899d5dc8937a443ba3612860e6dda = L.polyline(
+                [[43.0011259, -76.1524237], [43.057583, -76.117522]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_b3a7fdc7370e98a41ecd003b5393d758 = L.polyline(
+                [[43.057583, -76.117522], [43.00114, -76.147903]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_12d13cd6d1f0c797df4d68f2a1b2c7c4 = L.polyline(
+                [[43.00114, -76.147903], [43.047149, -76.141262]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_375204261e30499ddf8157c2f747a317 = L.polyline(
+                [[43.047149, -76.141262], [43.045706, -76.134479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_be9e97d3b95b62097960952eb89a6830 = L.polyline(
+                [[43.045706, -76.134479], [43.048911, -76.15704]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_dbf32a889e0a8a452cc94821141fd692 = L.polyline(
+                [[43.048911, -76.15704], [43.048891, -76.157148]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_d308c4df16e5538088bb7df93737e331 = L.polyline(
+                [[43.048891, -76.157148], [43.044626, -76.149032]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_4ac051e9e3120b2e3d779ffab620d124 = L.polyline(
+                [[43.044626, -76.149032], [43.047932, -76.14676]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_ad6bc90a7ec98a220562306413eb4798 = L.polyline(
+                [[43.047932, -76.14676], [43.053341, -76.147016]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_65f3cfe718f7bcdf6783cfe6176ff9ce = L.polyline(
+                [[43.053341, -76.147016], [43.047782, -76.145404]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_1959a04f255011f1746221bab0dd214e = L.polyline(
+                [[43.047782, -76.145404], [43.046871, -76.141889]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_91444d61373c3a2cf3f88c1f7ab87d19 = L.polyline(
+                [[43.046871, -76.141889], [43.049185, -76.15703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_d8b8fb42108e01bb0347141f03cafc39 = L.polyline(
+                [[43.049185, -76.15703], [43.047086, -76.139388]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8df4c2ccdfcd8c003a8211a4cd66a726 = L.polyline(
+                [[43.047086, -76.139388], [43.055394, -76.157268]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_7e5492d309ffdffa9ad912ee1d84435f = L.polyline(
+                [[43.055394, -76.157268], [43.065738, -76.138537]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_13e4bb40319ebb9c5eac0aab29bd57eb = L.polyline(
+                [[43.065738, -76.138537], [43.046178, -76.147329]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_80d132be1bc036b8b2f1ce779035a72b = L.polyline(
+                [[43.046178, -76.147329], [43.0499, -76.155051]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_5ecc97e1e36db5d36c301832f30269ca = L.polyline(
+                [[43.0499, -76.155051], [43.047337, -76.123888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_81f9aa700828d533ec0bbc5efaa6f2bd = L.polyline(
+                [[43.047337, -76.123888], [43.026855, -76.165307]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_9e9518ac973368b11dfb309077310ee0 = L.polyline(
+                [[43.026855, -76.165307], [43.04629, -76.149301]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_b616428b19ae63fc83c6617a3ff81637 = L.polyline(
+                [[43.04629, -76.149301], [43.051069, -76.156092]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_0e6554ebea1abc3f7fe905b97e7f97a9 = L.polyline(
+                [[43.051069, -76.156092], [43.047616, -76.145877]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_59570116edf9661386fb0a6695bae53c = L.polyline(
+                [[43.047616, -76.145877], [43.051894, -76.141213]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8a41f56f509cd62f912524325e71b874 = L.polyline(
+                [[43.051894, -76.141213], [43.051012, -76.149001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_6b1a7110c13fcbc2d5e86df9e0f2252a = L.polyline(
+                [[43.051012, -76.149001], [43.040378, -76.119466]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_927862d09da31179406683dc6b4228ec = L.polyline(
+                [[43.040378, -76.119466], [43.041605, -76.119129]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_0fdb7201da955334537a306dbcbc1680 = L.polyline(
+                [[43.041605, -76.119129], [43.041378, -76.118779]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8887f59150244350f9f87d770eedb801 = L.polyline(
+                [[43.041378, -76.118779], [43.048499, -76.151209]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_96b8246138270dcf8c0e4071415f31cb = L.polyline(
+                [[43.048499, -76.151209], [43.061094, -76.154257]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_769e25ff5555ca21120c562b284c9e35 = L.polyline(
+                [[43.061094, -76.154257], [43.041619, -76.119923]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_62c2dda60bdbeaadc92d19ece29166cc = L.polyline(
+                [[43.041619, -76.119923], [43.048497, -76.156179]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_4620102158542cf9faab10b207ac01f4 = L.polyline(
+                [[43.048497, -76.156179], [43.048973, -76.158146]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_0584fd4a6601edfb3eaba06d17daa4b4 = L.polyline(
+                [[43.048973, -76.158146], [43.056433, -76.161227]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_071d3372f45fdf805a619c29882c4365 = L.polyline(
+                [[43.056433, -76.161227], [43.045117, -76.171451]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_71b55a4179b7e6422b8b9657711ff249 = L.polyline(
+                [[43.045117, -76.171451], [43.046069, -76.170632]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_214efaecde87722242e37373c927b921 = L.polyline(
+                [[43.046069, -76.170632], [43.048774, -76.141028]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_2e7d7a8e928d907118fb718513e57363 = L.polyline(
+                [[43.048774, -76.141028], [43.071981, -76.14212]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_723a6baa78890123e33ff24623a79765 = L.polyline(
+                [[43.071981, -76.14212], [43.041191, -76.119034]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_6ee0a7cc6ed54c9cd341cb41d356c38a = L.polyline(
+                [[43.041191, -76.119034], [43.058666, -76.152398]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_767f1274c603cd57d6ad84ac23fc0fd7 = L.polyline(
+                [[43.058666, -76.152398], [43.048515, -76.15657]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_65fcf9b4a30d781b8c77b8cdcca093af = L.polyline(
+                [[43.048515, -76.15657], [43.059561, -76.199771]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_bea1444abd89f9809d9ddde6495d720f = L.polyline(
+                [[43.059561, -76.199771], [43.047823, -76.162124]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_f7049e84eec1a547593cf34d60563888 = L.polyline(
+                [[43.047823, -76.162124], [43.049369, -76.120329]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8254c025cf91588c7ccad29abc423512 = L.polyline(
+                [[43.049369, -76.120329], [43.049725, -76.146012]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8672425359e7db679d989911436143b9 = L.polyline(
+                [[43.049725, -76.146012], [43.044865, -76.152691]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_8dd72f3b48ab3af88d4bfff61460354f = L.polyline(
+                [[43.044865, -76.152691], [43.068128, -76.112995]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_4e059b2b25dee561ffd3fe9eaddccd7c = L.polyline(
+                [[43.068128, -76.112995], [43.039379, -76.150402]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_48eea95cf4507a8aaebc5277b2353ee7 = L.polyline(
+                [[43.039379, -76.150402], [43.047617, -76.148531]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_bb20ad5af77a54e85ea859829b26f99f = L.polyline(
+                [[43.047617, -76.148531], [43.047776, -76.155383]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+    
+            var poly_line_fe515707c2802c3b90f1f8762f6bdd07 = L.polyline(
+                [[43.047776, -76.155383], [43.04935, -76.152557]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb405091b731b7805d9225905cd14885);
+        
+</script>
+</html>
