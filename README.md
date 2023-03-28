@@ -2,9 +2,10 @@
 https://data.syr.gov/pages/data-challenge
 
 # The Seven Bridges of Königsberg and Finding Public Art in Syracuse
-[![Map of Syracuse](images\syracuse.PNG)](syracuse_route.html)
-
-Click the image to view the full-size version.
+<iframe src="syracuse_route.html"
+        width="100%"
+        height="500"
+        style="border:none;"></iframe>
 
 ## Introduction
 
