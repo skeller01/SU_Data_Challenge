@@ -19,13 +19,14 @@ Syracuse is a city in upstate New York with a rich history and vibrant arts scen
 
 ### Google API for Places and Maps 
 ![Alt Text](/images/Google_API_ETL.png)
+This illustrates a basic ETL pipeline for enriching the provided data at the link to the contest. 
 
 ###
 We can model the problem by creating a graph where the nodes represent the public art pieces and the edges represent the distance between them. We can then use graph traversal algorithms to find the shortest path that visits all of the nodes without repeating.
 
-To obtain the data for the graph, we will use the Google Places API (PlacesAPI.py) to retrieve the google places_id of the public art pieces. Next, we could use google's map API with waypoints to calculate the optimized traveling path. In this case we just wrote a basic algorithm to help calculate the optimal path.(optimal.py)
-
-In addition to finding the shortest path to the public art, we will also use the Google Places API to find the closest restaurant to each art piece. We can then display the entire route on a map using a library like folium. (visualize.py)
+* First, to obtain the data for the graph, we will use the Google Places API to retrieve the google places_id of the public art pieces. [GitHub](PlacesAPI.py).
+* Second, we could use google's map API with waypoints to calculate the optimized traveling path. In this case we just wrote a basic algorithm to help calculate the optimal path.[GitHub](optimal.py).
+* Last, in addition to finding the shortest path to the public art, we will also use the Google Places API to find the closest restaurant to each art piece. We can then display the entire route on a map using a library like folium. [GitHub](visualize.py).
 
 ## Discussion 
 We didn't have the time to complete this project beyond a proof of concept but we leave the code open source so anyone can try and improve. We believe you could divide the city into sectors and then run optimization to find the fastest route anchored around areas of the city you could walk to the art. You could then turn this into an online brochure advertising hotels and restaurants in those areas or places to grab a coffee while you walk and enjoy the art! 
