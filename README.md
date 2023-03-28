@@ -22,6 +22,17 @@ Syracuse is a city in upstate New York with a rich history and vibrant arts scen
 * See the main github repo if you'd like to download the enriched data from the API's 
 * https://github.com/skeller01/SU_Data_Challenge
 
+## Known Bugs 
+The places API is currently reading the raw address without the city, zip code or state. This is giving incorrect spots on the maps for nearest restaurants. The truth is we didn't need to read new latitudes but originally wanted the Google Place_ID for other features of the application that we didn't have time to implement. 
+
+* Fix: Change the PlacesAPI file to read a full address including city, zip code and state by appending that information onto every street address. 
+
+The code for optimal travel looks fine and is using the correct Title, Latitude and Longitude. No fixes here. 
+
+The visualization code on the other hand is using the bogus restaurant names and is also using the wrong titles from the order column. 
+
+* Fix: At the end of the optimal.py file, use pandas to create a new dataframe with just order and join it to grab the restaurant, latitude and longitude from the data frame with a left join on order to title. This will correct the restaurant, latitude and longitudes for the fastest order. 
+
 ## Approach
 
 ### Google API for Places and Maps 
