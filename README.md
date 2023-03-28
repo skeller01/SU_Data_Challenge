@@ -21,7 +21,7 @@ Syracuse is a city in upstate New York with a rich history and vibrant arts scen
 ![Alt Text](/images/Google_API_ETL.png)
 This illustrates a basic ETL pipeline for enriching the provided data at the link to the contest. 
 
-###
+### Steps 
 We can model the problem by creating a graph where the nodes represent the public art pieces and the edges represent the distance between them. We can then use graph traversal algorithms to find the shortest path that visits all of the nodes without repeating.
 
 * First, to obtain the data for the graph, we will use the Google Places API to retrieve the google places_id of the public art pieces. [GitHub](PlacesAPI.py).
@@ -34,3 +34,7 @@ We didn't have the time to complete this project beyond a proof of concept but w
 ## Conclusion
 
 The Seven Bridges of Königsberg problem provided a foundational concept for graph theory, which has numerous practical applications in computer science and engineering. By applying this concept to finding the shortest path to all of the public art in Syracuse, we can create a useful tool for art enthusiasts and tourists alike.
+
+## References 
+To learn more about Traveling Salesman Optimization, check out the [Wikipedia page on TSP](https://en.wikipedia.org/wiki/Travelling_salesman_problem).
+To get started with the Google Maps API, check out the [Google Maps documentation](https://developers.google.com/maps/documentation).
