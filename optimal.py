@@ -36,7 +36,14 @@ df = pd.read_csv('updated_addresses.csv')
 
 # get optimal route and add order column to dataframe
 order = get_optimal_route(df[['Title', 'Latitude', 'Longitude']])
-df['order'] = pd.Series(order)
+
+#Create table for order 
+order_df = pd.DataFrame()
+order_df['Title'] = pd.Series(order)
+
+#Update order_df with restaurant, latitude and longitude. 
+order_df = order_df.merge(df, how='left', on='Title')
+#print(order_df.head())
 
 # print dataframe with order column
 df.to_csv('updated_addresses_optimized.csv')

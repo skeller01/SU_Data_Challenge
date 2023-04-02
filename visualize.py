@@ -31,7 +31,7 @@ df = pd.read_csv('updated_addresses_optimized.csv')
 prev_point = None
 for i, row in df.iterrows():
     point = [row['Latitude'], row['Longitude']]
-    tooltip_text = f"Nearby restaurant: {row['restaurant']} \n Nearby order: {row['order']}"
+    tooltip_text = f"Nearby Restaurant: {row['restaurant']} \n Nearby Public Art: {row['Title']}"
     marker = folium.Marker(point, icon=folium.Icon(icon='arrow-up', prefix='fa', color='red', icon_color='white'), popup=f'Point {i+1}', tooltip=tooltip_text)
     if prev_point:
         angle = calculate_angle(prev_point, point)
